@@ -7,3 +7,8 @@ body{
     background:#0B3B2E;
     color:#ffffff;
 }
+.logo img{
+    height:80px;
+    width:auto;
+    display:block;
+}
