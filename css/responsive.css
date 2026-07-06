@@ -90,3 +90,64 @@ text-align:center;
 margin:auto auto 20px;
 
 }
+/* ================= FINAL MOBILE POLISH ================= */
+
+@media (max-width:768px){
+
+.container{
+    width:92%;
+    margin:auto;
+}
+
+nav{
+    flex-direction:column;
+    gap:15px;
+    text-align:center;
+}
+
+.hero{
+    padding:80px 0;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:42px;
+}
+
+.hero h2{
+    font-size:24px;
+}
+
+.hero p{
+    font-size:16px;
+    line-height:1.8;
+}
+
+.btn{
+    width:100%;
+    display:block;
+    text-align:center;
+}
+
+.about-grid,
+.feature-grid,
+.process-grid,
+.promise-grid,
+.gallery-grid,
+.footer-grid,
+.contact-grid,
+.order-grid,
+.faq-grid{
+    grid-template-columns:1fr;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+footer{
+    text-align:center;
+}
+
+}
