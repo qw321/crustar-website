@@ -796,3 +796,50 @@ line-height:1.8;
     color:#dddddd;
     line-height:1.7;
 }
+/* ================= FAQ ================= */
+
+.faq-section{
+
+padding:80px 20px;
+
+background:#081F1B;
+
+}
+
+.faq-item{
+
+background:#10352F;
+
+border-left:5px solid #D4AF37;
+
+padding:25px;
+
+margin-bottom:20px;
+
+border-radius:12px;
+
+transition:.3s;
+
+}
+
+.faq-item:hover{
+
+transform:translateX(8px);
+
+}
+
+.faq-item h3{
+
+color:#D4AF37;
+
+margin-bottom:12px;
+
+}
+
+.faq-item p{
+
+color:#dddddd;
+
+line-height:1.8;
+
+}
