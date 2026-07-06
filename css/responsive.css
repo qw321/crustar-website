@@ -1,7 +1,79 @@
-/* Responsive Styles */
+@media(max-width:992px){
 
-@media (max-width: 768px) {
-    body {
-        overflow-x: hidden;
-    }
+.about-section .container{
+
+grid-template-columns:1fr;
+
+}
+
+.hero h1{
+
+font-size:52px;
+
+}
+
+.hero h2{
+
+font-size:28px;
+
+}
+
+nav{
+
+display:none;
+
+}
+
+}
+
+@media(max-width:768px){
+
+section{
+
+padding:70px 0;
+
+}
+
+.hero h1{
+
+font-size:42px;
+
+}
+
+.hero h2{
+
+font-size:24px;
+
+}
+
+.hero p{
+
+font-size:17px;
+
+}
+
+.section-title h2{
+
+font-size:34px;
+
+}
+
+.menu-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.gallery-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.logo img{
+
+height:60px;
+
+}
+
 }
