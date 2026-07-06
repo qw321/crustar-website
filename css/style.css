@@ -388,3 +388,25 @@ footer p{
     color:#cccccc;
     font-size:15px;
 }
+/* CONTACT */
+
+.contact-section{
+    padding:80px 20px;
+    text-align:center;
+    background:#06281F;
+}
+
+.contact-section h2{
+    color:#D4AF37;
+    margin-bottom:20px;
+}
+
+.contact-section p{
+    font-size:18px;
+    margin:15px 0;
+}
+
+.contact-section a{
+    color:#D4AF37;
+    text-decoration:none;
+}
