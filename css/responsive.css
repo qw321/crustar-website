@@ -77,3 +77,16 @@ height:60px;
 }
 
 }
+.footer .container{
+
+grid-template-columns:1fr;
+
+text-align:center;
+
+}
+
+.footer-logo img{
+
+margin:auto auto 20px;
+
+}
