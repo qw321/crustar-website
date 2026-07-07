@@ -1061,3 +1061,28 @@ box-shadow:0 10px 25px rgba(212,175,55,.35);
     display:block;
     margin-bottom:20px;
 }
+.customisation-section{
+    padding:60px 0;
+}
+
+.customisation-banner{
+
+    background:linear-gradient(135deg,#D4AF37,#E8C86B);
+
+    color:#06281F;
+
+    text-align:center;
+
+    font-size:30px;
+
+    font-weight:700;
+
+    padding:22px;
+
+    border-radius:18px;
+
+    letter-spacing:2px;
+
+    box-shadow:0 12px 30px rgba(212,175,55,.35);
+
+}
