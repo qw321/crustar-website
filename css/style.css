@@ -1086,3 +1086,18 @@ box-shadow:0 10px 25px rgba(212,175,55,.35);
     box-shadow:0 12px 30px rgba(212,175,55,.35);
 
 }
+.footer-subtitle{
+    color:#d4af37;
+    font-size:16px;
+    font-weight:600;
+    letter-spacing:1px;
+    margin:8px 0 4px;
+    text-transform:uppercase;
+}
+
+.footer-tagline{
+    color:#e8dcc0;
+    font-size:15px;
+    font-style:italic;
+    margin:0;
+}
