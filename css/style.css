@@ -1194,3 +1194,66 @@ line-height:1.8;
 font-size:17px;
 
 }
+/* ================= FEATURED DISHES ================= */
+
+.featured-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+gap:30px;
+
+margin-top:40px;
+
+}
+
+.featured-card{
+
+background:#10352F;
+
+padding:30px;
+
+border-radius:18px;
+
+border:1px solid rgba(212,175,55,.35);
+
+transition:.3s;
+
+text-align:center;
+
+}
+
+.featured-card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 15px 35px rgba(0,0,0,.35);
+
+}
+
+.featured-card h3{
+
+color:#D4AF37;
+
+margin-bottom:15px;
+
+font-size:24px;
+
+}
+
+.featured-card p{
+
+color:#dddddd;
+
+line-height:1.8;
+
+}
+
+.featured-btn{
+
+text-align:center;
+
+margin-top:50px;
+
+}
