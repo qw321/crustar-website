@@ -1019,3 +1019,36 @@ background:#ffffff;
     width: auto;
     display: block;
 }
+/* ===== Premium Order Button ===== */
+
+.order-btn{
+
+background:transparent;
+
+border:2px solid #D4AF37;
+
+padding:14px 28px;
+
+border-radius:12px;
+
+color:#D4AF37;
+
+font-weight:600;
+
+transition:.35s;
+
+margin-left:25px;
+
+}
+
+.order-btn:hover{
+
+background:#D4AF37;
+
+color:#081F1B;
+
+transform:translateY(-3px);
+
+box-shadow:0 10px 25px rgba(212,175,55,.35);
+
+}
