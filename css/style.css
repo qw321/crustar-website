@@ -1052,3 +1052,12 @@ transform:translateY(-3px);
 box-shadow:0 10px 25px rgba(212,175,55,.35);
 
 }
+/* Footer Logo */
+
+.footer-logo{
+    width:180px;
+    max-width:100%;
+    height:auto;
+    display:block;
+    margin-bottom:20px;
+}
