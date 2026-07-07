@@ -1014,3 +1014,8 @@ background:#ffffff;
     display:block;
     margin:0 auto 30px;
 }
+.logo img {
+    height: 65px;
+    width: auto;
+    display: block;
+}
