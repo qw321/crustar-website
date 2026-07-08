@@ -1735,10 +1735,36 @@ font-size:46px;
     text-align:center;
 }
 
-.celebration-section h3{
+.celebration-heading{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:25px;
+
     color:#D4AF37;
-    font-size:38px;
-    margin-bottom:40px;
+
+    font-size:42px;
+
+    font-weight:700;
+
+    letter-spacing:1px;
+
+    margin-bottom:50px;
+
+}
+
+.celebration-heading span{
+
+    width:140px;
+
+    height:2px;
+
+    background:linear-gradient(to right,transparent,#D4AF37,transparent);
+
 }
 
 .celebration-grid{
@@ -1761,30 +1787,72 @@ font-size:46px;
 }
 
 .celebration-card{
-    background:linear-gradient(145deg,#0b3b2e,#0d4636);
-    border:1px solid rgba(212,175,55,.35);
-    border-radius:18px;
-    padding:28px 22px;
-    color:#fff;
-    font-size:22px;
-    font-weight:600;
-    text-align:center;
-    min-height:170px;
+.celebration-card::before{
 
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    flex-direction:column;
+    content:"";
 
-    transition:.35s ease;
-    box-shadow:0 12px 30px rgba(0,0,0,.18);
+    position:absolute;
+
+    inset:0;
+
+    background:
+
+    radial-gradient(circle at top,
+
+    rgba(212,175,55,.12),
+
+    transparent 60%);
+
+    opacity:0;
+
+    transition:.4s;
+
 }
 
+.celebration-card:hover::before{
+
+    opacity:1;
+
+}
+    position:relative;
+
+    background:linear-gradient(160deg,#08362f,#0b3b2e);
+
+    border:1px solid rgba(212,175,55,.45);
+
+    border-radius:22px;
+
+    padding:30px 20px;
+
+    min-height:180px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    overflow:hidden;
+
+    transition:.4s;
+
+}
 .celebration-card:hover{
+
     transform:translateY(-10px);
+
     border-color:#D4AF37;
-    box-shadow:0 22px 45px rgba(0,0,0,.35);
-    background:linear-gradient(145deg,#114637,#0f5240);
+
+    box-shadow:
+
+        0 25px 50px rgba(0,0,0,.35),
+
+        0 0 25px rgba(212,175,55,.15);
+
 }
 
 .gourmet-button{
