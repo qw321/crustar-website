@@ -1774,33 +1774,3 @@ font-size:30px;
     display:grid;
     grid-template-columns:repeat(2,1fr);
     gap:20px;
-    margin-top:40px;
-}
-
-.gourmet-feature-card{
-    background:#083B2E;
-    border:1px solid #D4AF37;
-    border-radius:15px;
-    padding:25px;
-    transition:.3s;
-}
-
-.gourmet-feature-card:hover{
-    transform:translateY(-8px);
-    box-shadow:0 15px 35px rgba(212,175,55,.25);
-}
-
-.gourmet-feature-icon{
-    font-size:32px;
-    margin-bottom:15px;
-}
-
-.gourmet-feature-card h4{
-    color:#D4AF37;
-    margin-bottom:10px;
-}
-
-.gourmet-feature-card p{
-    color:#ddd;
-    line-height:1.7;
-}
