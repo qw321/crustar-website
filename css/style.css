@@ -1735,126 +1735,219 @@ font-size:46px;
     text-align:center;
 }
 
-.celebration-heading{
+/*=========================================
+        CELEBRATION SECTION
+=========================================*/
 
-    display:flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-    gap:25px;
-
-    color:#D4AF37;
-
-    font-size:42px;
-
-    font-weight:700;
-
-    letter-spacing:1px;
-
-    margin-bottom:50px;
-
+.celebration-section{
+    margin-top:110px;
+    text-align:center;
 }
 
-.celebration-heading span{
+.celebration-heading{
+    margin-bottom:55px;
+}
 
-    width:140px;
+.celebration-heading h3{
+    font-size:54px;
+    color:#D4AF37;
+    font-weight:700;
+    margin-bottom:18px;
+    letter-spacing:.5px;
+}
 
-    height:2px;
-
-    background:linear-gradient(to right,transparent,#D4AF37,transparent);
-
+.celebration-heading p{
+    max-width:760px;
+    margin:0 auto;
+    color:#d7d7d7;
+    font-size:18px;
+    line-height:1.9;
 }
 
 .celebration-grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(185px,1fr));
-    gap:22px;
-    margin-top:35px;
-}
-
-@media(max-width:992px){
-    .celebration-grid{
-        grid-template-columns:repeat(2,1fr);
-    }
-}
-
-@media(max-width:768px){
-    .celebration-grid{
-        grid-template-columns:1fr;
-    }
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:28px;
+    margin-top:60px;
 }
 
 .celebration-card{
+    position:relative;
+    overflow:hidden;
+
+    background:linear-gradient(145deg,#08362f,#0b4035);
+
+    border:1px solid rgba(212,175,55,.30);
+
+    border-radius:24px;
+
+    padding:38px 25px;
+
+    min-height:220px;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+    transition:.45s ease;
+
+    box-shadow:
+        0 18px 45px rgba(0,0,0,.30);
+}
+
 .celebration-card::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:
+    radial-gradient(circle at top,
+    rgba(212,175,55,.18),
+    transparent 65%);
+    opacity:0;
+    transition:.45s;
+}
+
+.celebration-card:hover{
+
+    transform:translateY(-12px);
+
+    border-color:#D4AF37;
+
+    box-shadow:
+        0 25px 60px rgba(0,0,0,.40),
+        0 0 25px rgba(212,175,55,.18);
+
+}
+
+.celebration-card:hover::before{
+    opacity:1;
+}
+
+.celebration-icon{
+
+    width:78px;
+    height:78px;
+
+    border-radius:50%;
+
+    border:2px solid rgba(212,175,55,.55);
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-size:36px;
+
+    color:#D4AF37;
+
+    background:rgba(212,175,55,.08);
+
+    margin-bottom:22px;
+
+    transition:.45s;
+}
+
+.celebration-card:hover .celebration-icon{
+
+    transform:scale(1.12) rotate(6deg);
+
+    background:#D4AF37;
+
+    color:#062F2D;
+
+}
+
+.celebration-card h4{
+
+    color:#ffffff;
+
+    font-size:24px;
+
+    margin-bottom:15px;
+
+    font-weight:700;
+
+}
+
+.celebration-card p{
+
+    color:#d8d8d8;
+
+    line-height:1.8;
+
+    font-size:15px;
+
+    margin:0;
+
+}
+
+.celebration-card::after{
 
     content:"";
 
     position:absolute;
 
-    inset:0;
+    left:0;
 
-    background:
+    bottom:0;
 
-    radial-gradient(circle at top,
+    width:100%;
 
-    rgba(212,175,55,.12),
+    height:4px;
 
-    transparent 60%);
+    background:linear-gradient(to right,
+    transparent,
+    #D4AF37,
+    transparent);
 
-    opacity:0;
+    transform:scaleX(0);
 
-    transition:.4s;
-
-}
-
-.celebration-card:hover::before{
-
-    opacity:1;
-
-}
-    position:relative;
-
-    background:linear-gradient(160deg,#08362f,#0b3b2e);
-
-    border:1px solid rgba(212,175,55,.45);
-
-    border-radius:22px;
-
-    padding:30px 20px;
-
-    min-height:180px;
-
-    display:flex;
-
-    flex-direction:column;
-
-    justify-content:center;
-
-    align-items:center;
-
-    text-align:center;
-
-    overflow:hidden;
-
-    transition:.4s;
-
-}
-.celebration-card:hover{
-
-    transform:translateY(-10px);
-
-    border-color:#D4AF37;
-
-    box-shadow:
-
-        0 25px 50px rgba(0,0,0,.35),
-
-        0 0 25px rgba(212,175,55,.15);
+    transition:.45s;
 
 }
 
+.celebration-card:hover::after{
+
+    transform:scaleX(1);
+
+}
+
+/* Responsive */
+
+@media(max-width:992px){
+
+.celebration-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:768px){
+
+.celebration-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.celebration-heading h3{
+
+font-size:38px;
+
+}
+
+.celebration-card{
+
+min-height:190px;
+
+padding:30px 20px;
+
+}
+
+}
 .gourmet-button{
     text-align:center;
     margin-top:55px;
