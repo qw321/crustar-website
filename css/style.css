@@ -1622,23 +1622,67 @@ font-size:46px;
 
 
 .gourmet-image{
+    position:relative;
     overflow:hidden;
-    border-radius:20px;
-    border:3px solid #D4AF37;
-}
+    border-radius:28px;
+    border:2px solid rgba(212,175,55,.75);
 
-.gourmet-image img{
-    width:100%;
-    max-width:550px;
-    height:650px;
-    object-fit:cover;
-    display:block;
-    border-radius:20px;
-    transition:.5s;
-}
+    background:#081f1c;
 
+    box-shadow:
+        0 30px 70px rgba(0,0,0,.45),
+        0 0 35px rgba(212,175,55,.15);
+
+    transition:.45s ease;
+}
 .gourmet-image:hover img{
-    transform:scale(1.08);
+    transform:scale(1.06);
+}
+.gourmet-image::after{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:linear-gradient(
+
+        to top,
+
+        rgba(6,47,45,.70),
+
+        rgba(6,47,45,.15),
+
+        transparent
+
+    );
+
+    pointer-events:none;
+
+}
+.gourmet-image::before{
+
+    content:"CRUSTAR GOURMET";
+
+    position:absolute;
+
+    bottom:30px;
+
+    left:30px;
+
+    color:#ffffff;
+
+    font-size:30px;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+    z-index:5;
+
+    text-shadow:0 4px 15px rgba(0,0,0,.5);
+
 }
 
 .gourmet-text h3{
