@@ -1575,3 +1575,198 @@ font-size:46px;
 }
 
 }
+/* ===========================
+   CRUSTAR GOURMET SECTION
+=========================== */
+
+.gourmet-section{
+    padding:100px 0;
+    background:#062F2D;
+}
+
+.gourmet-section .section-title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.gourmet-section .section-title span{
+    display:inline-block;
+    color:#D4AF37;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    margin-bottom:15px;
+}
+
+.gourmet-section .section-title h2{
+    color:#ffffff;
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.gourmet-section .section-title p{
+    color:#d8d8d8;
+    max-width:750px;
+    margin:0 auto;
+    line-height:1.9;
+}
+
+.gourmet-content{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+    align-items:center;
+    margin-top:70px;
+}
+
+.gourmet-image{
+    overflow:hidden;
+    border-radius:20px;
+    border:3px solid #D4AF37;
+}
+
+.gourmet-image img{
+    width:100%;
+    display:block;
+    transition:.5s;
+}
+
+.gourmet-image:hover img{
+    transform:scale(1.08);
+}
+
+.gourmet-text h3{
+    color:#D4AF37;
+    font-size:36px;
+    margin-bottom:20px;
+}
+
+.gourmet-text p{
+    color:#e5e5e5;
+    line-height:1.9;
+    margin-bottom:35px;
+}
+
+.gourmet-features{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+}
+
+.gourmet-feature-card{
+    background:#0B3B2E;
+    border:1px solid rgba(212,175,55,.35);
+    border-radius:18px;
+    padding:25px;
+    transition:.35s;
+}
+
+.gourmet-feature-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 18px 40px rgba(0,0,0,.35);
+}
+
+.gourmet-feature-icon{
+    font-size:38px;
+    margin-bottom:15px;
+}
+
+.gourmet-feature-card h4{
+    color:#D4AF37;
+    margin-bottom:10px;
+    font-size:22px;
+}
+
+.gourmet-feature-card p{
+    color:#dddddd;
+    line-height:1.7;
+    margin:0;
+}
+
+.celebration-section{
+    margin-top:90px;
+    text-align:center;
+}
+
+.celebration-section h3{
+    color:#D4AF37;
+    font-size:38px;
+    margin-bottom:40px;
+}
+
+.celebration-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.celebration-card{
+    background:#0B3B2E;
+    border:1px solid rgba(212,175,55,.35);
+    border-radius:18px;
+    padding:22px;
+    color:#ffffff;
+    font-size:18px;
+    font-weight:600;
+    transition:.35s;
+}
+
+.celebration-card:hover{
+    background:#D4AF37;
+    color:#062F2D;
+    transform:translateY(-8px);
+}
+
+.gourmet-button{
+    text-align:center;
+    margin-top:55px;
+}
+
+.gourmet-button .btn{
+    display:inline-block;
+    background:#D4AF37;
+    color:#062F2D;
+    padding:18px 45px;
+    border-radius:50px;
+    font-weight:700;
+    text-decoration:none;
+    transition:.35s;
+}
+
+.gourmet-button .btn:hover{
+    background:#ffffff;
+    color:#062F2D;
+}
+
+@media(max-width:992px){
+
+.gourmet-content{
+grid-template-columns:1fr;
+}
+
+.gourmet-features{
+grid-template-columns:1fr;
+}
+
+.gourmet-text{
+text-align:center;
+}
+
+}
+
+@media(max-width:768px){
+
+.gourmet-section{
+padding:70px 0;
+}
+
+.gourmet-section .section-title h2{
+font-size:36px;
+}
+
+.celebration-section h3{
+font-size:30px;
+}
+
+}
