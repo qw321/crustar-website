@@ -1614,10 +1614,11 @@ font-size:46px;
 
 .gourmet-content{
     display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:60px;
+    grid-template-columns:550px 1fr;
+    gap:70px;
     align-items:center;
-    margin-top:70px;
+    margin-top:60px;
+}
 }
 
 .gourmet-image{
@@ -1628,7 +1629,11 @@ font-size:46px;
 
 .gourmet-image img{
     width:100%;
+    max-width:550px;
+    height:650px;
+    object-fit:cover;
     display:block;
+    border-radius:20px;
     transition:.5s;
 }
 
@@ -1650,8 +1655,9 @@ font-size:46px;
 
 .gourmet-features{
     display:grid;
-    grid-template-columns:repeat(2,1fr);
-    gap:25px;
+    grid-template-columns:repeat(2,minmax(220px,1fr));
+    gap:20px;
+    margin-top:35px;
 }
 
 .gourmet-feature-card{
