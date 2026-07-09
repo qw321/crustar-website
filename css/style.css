@@ -1579,342 +1579,108 @@ font-size:46px;
    CRUSTAR GOURMET SECTION
 =========================== */
 
-.gourmet-section{
-    padding:100px 0;
-    background:#062F2D;
-}
-
-.gourmet-section .section-title{
-    text-align:center;
-    margin-bottom:60px;
-}
-
-.gourmet-section .section-title span{
-    display:inline-block;
-    color:#D4AF37;
-    font-size:14px;
-    font-weight:700;
-    letter-spacing:3px;
-    text-transform:uppercase;
-    margin-bottom:15px;
-}
-
-.gourmet-section .section-title h2{
-    color:#ffffff;
-    font-size:48px;
-    margin-bottom:20px;
-}
-
-.gourmet-section .section-title p{
-    color:#d8d8d8;
-    max-width:750px;
-    margin:0 auto;
-    line-height:1.9;
-}
-
-.gourmet-content{
-    display:grid;
-    grid-template-columns:550px 1fr;
-    gap:70px;
-    align-items:center;
-    margin-top:60px;
-}
-
-
-.gourmet-image{
-    position:relative;
-    overflow:hidden;
-    border-radius:28px;
-    border:2px solid rgba(212,175,55,.75);
-
-    background:#081f1c;
-
-    box-shadow:
-        0 30px 70px rgba(0,0,0,.45),
-        0 0 35px rgba(212,175,55,.15);
-
-    transition:.45s ease;
-}
-.gourmet-image:hover img{
-    transform:scale(1.06);
-}
-.gourmet-image::after{
-
-    content:"";
-
-    position:absolute;
-
-    inset:0;
-
-    background:linear-gradient(
-
-        to top,
-
-        rgba(6,47,45,.70),
-
-        rgba(6,47,45,.15),
-
-        transparent
-
-    );
-
-    pointer-events:none;
-
-}
-.gourmet-image::before{
-
-    content:"CRUSTAR GOURMET";
-
-    position:absolute;
-
-    bottom:30px;
-
-    left:30px;
-
-    color:#ffffff;
-
-    font-size:30px;
-
-    font-weight:700;
-
-    letter-spacing:2px;
-
-    z-index:5;
-
-    text-shadow:0 4px 15px rgba(0,0,0,.5);
-
-}
-
-.gourmet-text h3{
-    color:#D4AF37;
-    font-size:36px;
-    line-height:1.3;
-    margin-bottom:20px;
-}
-
-.gourmet-text p{
-    color:#e5e5e5;
-    line-height:1.9;
-    margin-bottom:35px;
-}
-
-
-
-.gourmet-feature-card{
-    background:#0B3B2E;
-    border:1px solid rgba(212,175,55,.35);
-    border-radius:18px;
-    padding:25px;
-    transition:.35s;
-}
-
-.gourmet-feature-card:hover{
-    transform:translateY(-8px);
-    box-shadow:0 18px 40px rgba(0,0,0,.35);
-}
-
-.gourmet-feature-icon{
-    font-size:38px;
-    margin-bottom:15px;
-}
-
-.gourmet-feature-card h4{
-    color:#D4AF37;
-    margin-bottom:10px;
-    font-size:22px;
-}
-
-.gourmet-feature-card p{
-    color:#dddddd;
-    line-height:1.7;
-    margin:0;
-}
-
-.celebration-section{
-    margin-top:90px;
-    text-align:center;
-}
-
 /*=========================================
         CELEBRATION SECTION
 =========================================*/
 
 .celebration-section{
-    margin-top:110px;
+    margin-top:65px;
     text-align:center;
 }
 
-.celebration-heading{
-    margin-bottom:55px;
-}
-
-.celebration-heading h3{
-    font-size:54px;
+.celebration-title{
     color:#D4AF37;
+    font-size:34px;
     font-weight:700;
-    margin-bottom:18px;
-    letter-spacing:.5px;
-}
-
-.celebration-heading p{
-    max-width:760px;
-    margin:0 auto;
-    color:#d7d7d7;
-    font-size:18px;
-    line-height:1.9;
+    margin-bottom:32px;
 }
 
 .celebration-grid{
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:22px;
-    margin-top:45px;
-}
-    .celebration-grid{
-        grid-template-columns:repeat(2,1fr);
-    }
-}
 
-@media (max-width:768px){
-    .celebration-grid{
-        grid-template-columns:1fr;
-    }
-}
-    gap:28px;
-    margin-top:60px;
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:14px;
+
 }
 
 .celebration-card{
+
     background:linear-gradient(145deg,#0B3B2E,#0A3026);
+
     border:1px solid rgba(212,175,55,.28);
-    border-radius:20px;
+
+    border-radius:14px;
+
+    min-height:108px;
+
+    padding:14px 12px;
 
     display:flex;
+
     flex-direction:column;
+
     justify-content:center;
+
     align-items:center;
+
     text-align:center;
 
-    min-height:170px;
-    padding:25px;
+    transition:.30s ease;
 
-    transition:.35s ease;
-    cursor:pointer;
-}
-
-.celebration-card:hover{
-    transform:translateY(-8px);
-    border-color:#D4AF37;
-    box-shadow:
-        0 18px 45px rgba(0,0,0,.35),
-        0 0 25px rgba(212,175,55,.18);
-}
-
-
-.celebration-card::before{
-    content:"";
-    position:absolute;
-    inset:0;
-    background:
-    radial-gradient(circle at top,
-    rgba(212,175,55,.18),
-    transparent 65%);
-    opacity:0;
-    transition:.45s;
 }
 
 .celebration-card:hover{
 
-    transform:translateY(-12px);
+    transform:translateY(-5px);
 
     border-color:#D4AF37;
 
     box-shadow:
-        0 25px 60px rgba(0,0,0,.40),
-        0 0 25px rgba(212,175,55,.18);
+        0 15px 30px rgba(0,0,0,.30);
 
-}
-
-.celebration-card:hover::before{
-    opacity:1;
 }
 
 .celebration-icon{
-    width:70px;
-    height:70px;
+
+    width:42px;
+
+    height:42px;
 
     border-radius:50%;
 
+    background:rgba(212,175,55,.08);
+
+    border:2px solid rgba(212,175,55,.40);
+
     display:flex;
+
     justify-content:center;
+
     align-items:center;
 
-    font-size:34px;
+    font-size:22px;
 
-    margin-bottom:20px;
+    margin-bottom:8px;
 
-    background:rgba(212,175,55,.08);
-    border:2px solid rgba(212,175,55,.45);
-
-    transition:.35s;
 }
 
-.celebration-card:hover .celebration-icon{
-    transform:scale(1.08);
-    background:#D4AF37;
-}
 .celebration-card h4{
-    color:#fff;
-    font-size:26px;
-    line-height:1.35;
-    font-weight:700;
-    margin:0;
-}
 
-.celebration-card p{
+    color:#ffffff;
 
-    color:#d8d8d8;
+    font-size:16px;
 
-    line-height:1.8;
+    font-weight:600;
 
-    font-size:15px;
+    line-height:1.3;
 
     margin:0;
 
 }
 
-.celebration-card::after{
-
-    content:"";
-
-    position:absolute;
-
-    left:0;
-
-    bottom:0;
-
-    width:100%;
-
-    height:4px;
-
-    background:linear-gradient(to right,
-    transparent,
-    #D4AF37,
-    transparent);
-
-    transform:scaleX(0);
-
-    transition:.45s;
-
-}
-
-.celebration-card:hover::after{
-
-    transform:scaleX(1);
-
-}
-
-/* Responsive */
+/* Tablet */
 
 @media(max-width:992px){
 
@@ -1926,6 +1692,8 @@ grid-template-columns:repeat(2,1fr);
 
 }
 
+/* Mobile */
+
 @media(max-width:768px){
 
 .celebration-grid{
@@ -1934,17 +1702,9 @@ grid-template-columns:1fr;
 
 }
 
-.celebration-heading h3{
+.celebration-title{
 
-font-size:38px;
-
-}
-
-.celebration-card{
-
-min-height:190px;
-
-padding:30px 20px;
+font-size:30px;
 
 }
 
