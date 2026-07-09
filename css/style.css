@@ -1611,7 +1611,7 @@ font-size:46px;
 
     border:1px solid rgba(212,175,55,.28);
 
-    border-radius:14px;
+    border-radius:18px;
 
     min-height:108px;
 
@@ -1644,9 +1644,9 @@ font-size:46px;
 
 .celebration-icon{
 
-    width:42px;
+    width:46px;
 
-    height:42px;
+    height:46px;
 
     border-radius:50%;
 
@@ -1660,7 +1660,7 @@ font-size:46px;
 
     align-items:center;
 
-    font-size:22px;
+    font-size:24px;
 
     margin-bottom:8px;
 
