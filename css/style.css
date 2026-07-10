@@ -1384,15 +1384,38 @@ text-align:center;
 min-width:320px;
 
 }
+.hero-right{
+    position:relative;
+}
+
+.hero-right::before{
+    content:"";
+    position:absolute;
+    width:520px;
+    height:520px;
+    background:radial-gradient(circle,
+        rgba(212,175,55,.08) 0%,
+        rgba(212,175,55,.03) 45%,
+        transparent 75%);
+    border-radius:50%;
+    z-index:0;
+}
 
 .hero-right img{
+    position:relative;
+    z-index:2;
+}
+.hero-right img{
 
-max-width:100%;
+width: 620px;
+max-width: 100%;
+height: auto;
 
-width:550px;
-
-animation:floatFood 5s ease-in-out infinite;
-
+animation: logoFloat 7s ease-in-out infinite;
+transform: translateY(-20px);
+   filter:
+drop-shadow(0 0 12px rgba(212,175,55,.18))
+drop-shadow(0 0 28px rgba(212,175,55,.10));
 }
 
 .hero-subtitle{
@@ -1811,4 +1834,19 @@ font-size:30px;
 .gourmet-nav:hover::after{
     width:100%;
 } 
+   @keyframes logoFloat{
+
+0%{
+transform:translateY(-20px);
+}
+
+50%{
+transform:translateY(-28px);
+}
+
+100%{
+transform:translateY(-20px);
+}
+
+}
   
