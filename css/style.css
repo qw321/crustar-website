@@ -1394,8 +1394,8 @@ min-width:320px;
     width:520px;
     height:520px;
     background:radial-gradient(circle,
-        rgba(212,175,55,.08) 0%,
-        rgba(212,175,55,.03) 45%,
+       rgba(212,175,55,.05)
+      rgba(212,175,55,.02) 45%,
         transparent 75%);
     border-radius:50%;
     z-index:0;
@@ -1412,7 +1412,7 @@ max-width: 100%;
 height: auto;
 
 animation: logoFloat 7s ease-in-out infinite;
-transform: translateY(-20px);
+transform: translateY(-40px);
    filter:
 drop-shadow(0 0 12px rgba(212,175,55,.18))
 drop-shadow(0 0 28px rgba(212,175,55,.10));
@@ -1464,7 +1464,7 @@ line-height:1.8;
 
 color:#dddddd;
 
-max-width:620px;
+max-width:650px;
 
 margin-bottom:35px;
 
