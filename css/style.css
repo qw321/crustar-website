@@ -1349,7 +1349,7 @@ font-size:26px;
 
 background:linear-gradient(135deg,#041d19,#082f29);
 
-padding:70px 0 30px;
+padding:90px 0 30px;
 
 }
 
@@ -1412,7 +1412,7 @@ max-width: 100%;
 height: auto;
 
 animation: logoFloat 7s ease-in-out infinite;
-transform: translateY(-60px);
+transform: translateY(-35px);
    filter:
 drop-shadow(0 0 12px rgba(212,175,55,.18))
 drop-shadow(0 0 28px rgba(212,175,55,.10));
