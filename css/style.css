@@ -1784,4 +1784,31 @@ font-size:30px;
     display:grid;
     grid-template-columns:repeat(2,1fr);
     gap:20px;
+  /* ===== Gourmet Navigation ===== */
+
+.gourmet-nav{
+    color:#D4AF37 !important;
+    font-weight:700;
+    position:relative;
+    transition:.35s ease;
+}
+
+.gourmet-nav::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-6px;
+    width:0;
+    height:2px;
+    background:#D4AF37;
+    transition:.35s;
+}
+
+.gourmet-nav:hover{
+    color:#FFD978 !important;
+}
+
+.gourmet-nav:hover::after{
+    width:100%;
+} 
   
