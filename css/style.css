@@ -1349,7 +1349,7 @@ font-size:26px;
 
 background:linear-gradient(135deg,#041d19,#082f29);
 
-padding:90px 0 50px;
+padding:70px 0 30px;
 
 }
 
@@ -1538,6 +1538,7 @@ box-shadow:0 8px 22px rgba(212,175,55,.22);
 display:flex;
 
 gap:35px;
+margin-top:15px;
 
 flex-wrap:wrap;
 
