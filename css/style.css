@@ -174,6 +174,15 @@ nav a{
     transition:.3s;
 
 }
+nav a[href="#gourmet"]{
+    color:#D4AF37;
+    font-weight:700;
+    letter-spacing:.5px;
+}
+
+nav a[href="#gourmet"]:hover{
+    color:#FFD66B;
+}
 
 nav a:hover{
 
