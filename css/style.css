@@ -238,15 +238,22 @@ nav a:hover{
 .about-section .container{
     display:grid;
     grid-template-columns:1fr 1fr;
-    gap:60px;
+    gap:70px;
     align-items:center;
+}
 }
 
 .about-image img{
     width:100%;
-    border-radius:20px;
-    border:3px solid #D4AF37;
-    box-shadow:0 15px 40px rgba(0,0,0,.45);
+    display:block;
+    border-radius:22px;
+    border:2px solid rgba(212,175,55,.35);
+    box-shadow:0 25px 70px rgba(0,0,0,.45);
+    transition:.45s ease;
+}
+.about-image img:hover{
+    transform:scale(1.02);
+    box-shadow:0 35px 80px rgba(0,0,0,.55);
 }
 
 .about-content span{
