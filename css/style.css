@@ -890,18 +890,14 @@ align-items:start;
 width:140px;
 
 margin-bottom:20px;
-   .footer-logo{
-
-text-align:center;
-
-display:flex;
-
-flex-direction:column;
-
-align-items:center;
-
-justify-content:flex-start;
-
+ .footer-logo{
+    width:100%;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:50px;
 }
 
 }
@@ -1889,9 +1885,9 @@ transform:translateY(-20px);
 }
 
 .footer-logo img{
-    display:block;
-    margin:0 auto 20px;
-    background:transparent;
+    width:160px;
+    margin-bottom:20px;
+}
 }
 
 .footer-logo h3,
