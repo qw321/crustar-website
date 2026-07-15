@@ -871,13 +871,17 @@ border-top:2px solid rgba(212,175,55,.2);
 
 }
 
+
+
 .footer .container{
 
 display:grid;
 
-grid-template-columns:2fr 1fr 1fr;
+grid-template-columns:1fr 1fr 1fr;
 
 gap:40px;
+
+align-items:start;
 
 }
 
@@ -886,6 +890,19 @@ gap:40px;
 width:140px;
 
 margin-bottom:20px;
+   .footer-logo{
+
+text-align:center;
+
+display:flex;
+
+flex-direction:column;
+
+align-items:center;
+
+justify-content:flex-start;
+
+}
 
 }
 
