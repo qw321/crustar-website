@@ -77,19 +77,7 @@ height:60px;
 }
 
 }
-.footer .container{
 
-grid-template-columns:1fr;
-
-text-align:center;
-
-}
-
-.footer-logo img{
-
-margin:auto auto 20px;
-
-}
 /* ================= FINAL MOBILE POLISH ================= */
 
 @media (max-width:768px){
@@ -149,5 +137,12 @@ img{
 footer{
     text-align:center;
 }
+.footer .container{
+    grid-template-columns:1fr;
+    text-align:center;
+}
 
+.footer-logo img{
+    margin:auto auto 20px;
+}
 }
