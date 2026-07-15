@@ -1862,4 +1862,23 @@ transform:translateY(-20px);
 }
 
 }
-  
+  /* Center Footer Logo Section */
+.footer-logo{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.footer-logo img{
+    display:block;
+    margin:0 auto 20px;
+    background:transparent;
+}
+
+.footer-logo h3,
+.footer-subtitle,
+.footer-tagline{
+    text-align:center;
+}
