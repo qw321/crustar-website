@@ -241,7 +241,7 @@ nav a:hover{
     gap:70px;
     align-items:center;
 }
-}
+
 
 .about-image img{
     width:100%;
@@ -894,11 +894,11 @@ border-top:2px solid rgba(212,175,55,.2);
 }
 
 .footer-logo img{
+    width:140px;
+    margin-bottom:20px;
+}
 
-width:140px;
-
-margin-bottom:20px;
- .footer-logo{
+.footer-logo{
     width:100%;
     text-align:center;
     display:flex;
@@ -907,6 +907,8 @@ margin-bottom:20px;
     justify-content:center;
     margin-bottom:50px;
 }
+
+.footer-logo h3{
 
 }
 
@@ -1420,8 +1422,10 @@ min-width:320px;
 .hero-right::before{
     content:"";
     position:absolute;
-    width:520px;
-    height:520px;
+  width:100%;
+max-width:520px;
+aspect-ratio:1/1;
+height:auto;
     background:radial-gradient(circle,
        rgba(212,175,55,.05)
       rgba(212,175,55,.02) 45%,
@@ -1436,7 +1440,7 @@ min-width:320px;
 }
 .hero-right img{
 
-width: 620px;
+width: min(620px, 100%);
 max-width: 100%;
 height: auto;
 
