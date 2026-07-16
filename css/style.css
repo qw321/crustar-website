@@ -1384,17 +1384,15 @@ padding:75px 0 30px;
 }
 
 .hero-container{
+    flex-direction:column;
+    align-items:center;
+}
 
-display:flex;
-
-align-items:center;
-
-justify-content:space-between;
-
-gap:40px;
-
-flex-wrap:wrap;
-
+.hero-left,
+.hero-right{
+    width:100%;
+    min-width:0;
+    max-width:100%;
 }
 
 .hero-left{
