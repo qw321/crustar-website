@@ -1958,3 +1958,173 @@ transform:translateY(-20px);
 .gourmet-nav:hover::after{
     width:100%;
 }
+/*======================================================
+            CRUSTAR SIGNATURE PROMOTION
+======================================================*/
+
+.signature-banner{
+
+    position:relative;
+    overflow:hidden;
+
+    margin:80px auto;
+
+    width:100%;
+
+    padding:90px 40px;
+
+    border-radius:28px;
+
+    background:
+    linear-gradient(135deg,#032d2c,#074743,#032d2c);
+
+    border:2px solid rgba(212,175,55,.35);
+
+    text-align:center;
+
+    box-shadow:
+    0 15px 40px rgba(0,0,0,.35),
+    0 0 30px rgba(212,175,55,.12);
+
+}
+
+.signature-banner::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:420px;
+    height:420px;
+
+    border-radius:50%;
+
+    background:rgba(212,175,55,.06);
+
+    top:-180px;
+    left:-120px;
+
+}
+
+.signature-banner::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:350px;
+    height:350px;
+
+    border-radius:50%;
+
+    background:rgba(212,175,55,.05);
+
+    bottom:-150px;
+    right:-120px;
+
+}
+
+.signature-content{
+
+    position:relative;
+    z-index:2;
+
+}
+
+.signature-top{
+
+    display:inline-block;
+
+    color:#D4AF37;
+
+    font-size:15px;
+
+    font-weight:700;
+
+    letter-spacing:4px;
+
+    margin-bottom:20px;
+
+    text-transform:uppercase;
+
+}
+
+.signature-content h2{
+
+    color:#D4AF37;
+
+    font-size:32px;
+
+    margin-bottom:25px;
+
+    letter-spacing:2px;
+
+}
+
+.signature-content h1{
+
+    color:#ffffff;
+
+    font-size:62px;
+
+    line-height:1.15;
+
+    margin-bottom:25px;
+
+    font-weight:800;
+
+}
+
+.signature-content h3{
+
+    color:#e8e8e8;
+
+    font-size:34px;
+
+    font-weight:400;
+
+    margin-bottom:45px;
+
+}
+
+.signature-content h3 span{
+
+    color:#D4AF37;
+
+    font-weight:700;
+
+}
+
+.signature-btn{
+
+    display:inline-block;
+
+    padding:18px 45px;
+
+    border-radius:60px;
+
+    background:#D4AF37;
+
+    color:#032d2c;
+
+    text-decoration:none;
+
+    font-weight:700;
+
+    letter-spacing:1px;
+
+    transition:.35s;
+
+}
+
+.signature-btn:hover{
+
+    background:#ffffff;
+
+    color:#032d2c;
+
+    transform:translateY(-4px);
+
+    box-shadow:0 12px 25px rgba(212,175,55,.35);
+
+}
