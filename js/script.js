@@ -58,17 +58,17 @@ window.addEventListener("load", revealSections);
 
 const offers = [
 
-"⭐ TODAY'S SPECIAL : CRUSTAR SPECIAL BIRYANI",
+"⭐ Signature Biryani • Crafted Fresh Every Order",
 
-"🍰 Fresh Desserts Prepared Daily",
+"🍰 Handcrafted Desserts • Premium Ingredients",
 
-"🥘 Gourmet Collection Available",
+"🥘 Luxury Gourmet Collection • Chef Curated",
 
-"🚚 Fast Delivery",
+"🎉 Birthdays • Corporate Events • Private Celebrations",
 
-"❤️ Premium Ingredients",
+"🚚 Freshly Prepared • Delivered With Care",
 
-"👨‍🍳 Freshly Prepared Every Order"
+"👨‍🍳 Experience The Taste Of CRUSTAR"
 
 ];
 
