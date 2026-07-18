@@ -52,3 +52,26 @@ function revealSections() {
 window.addEventListener("scroll", revealSections);
 
 window.addEventListener("load", revealSections);
+/*==============================
+      LIVE OFFER ROTATOR
+==============================*/
+
+const offers=document.querySelectorAll(".offer-item");
+
+let offerIndex=0;
+
+setInterval(()=>{
+
+offers[offerIndex].classList.remove("active");
+
+offerIndex++;
+
+if(offerIndex>=offers.length){
+
+offerIndex=0;
+
+}
+
+offers[offerIndex].classList.add("active");
+
+},5000);
