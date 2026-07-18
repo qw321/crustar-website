@@ -2202,59 +2202,80 @@ body {
         LIVE OFFER BAR
 =========================================*/
 
+/*=========================================
+        CRUSTAR PREMIUM LIVE OFFER
+=========================================*/
+
 .live-offer{
 
-width:100%;
+    width:92%;
+    max-width:1250px;
 
-display:flex;
+    margin:22px auto 0;
 
-align-items:center;
+    display:flex;
+    align-items:center;
+    gap:18px;
 
-justify-content:center;
+    padding:14px 22px;
 
-gap:20px;
+    background:linear-gradient(135deg,#072B28,#0C3D39,#072B28);
 
-padding:14px 25px;
+    border:1px solid rgba(212,175,55,.35);
 
-background:linear-gradient(90deg,#062F2D,#0A4A47,#062F2D);
+    border-radius:18px;
 
-border-top:1px solid rgba(212,175,55,.25);
-
-border-bottom:1px solid rgba(212,175,55,.25);
+    box-shadow:
+        0 12px 30px rgba(0,0,0,.30),
+        0 0 18px rgba(212,175,55,.08);
 
 }
 
 .live-left{
 
-background:#d32f2f;
+    background:linear-gradient(135deg,#D4AF37,#E9C96A);
 
-color:#fff;
+    color:#062F2D;
 
-padding:8px 20px;
+    padding:9px 22px;
 
-border-radius:40px;
+    border-radius:40px;
 
-font-size:14px;
+    font-size:13px;
 
-font-weight:700;
+    font-weight:800;
 
-box-shadow:0 0 12px rgba(211,47,47,.4);
+    letter-spacing:2px;
+
+    white-space:nowrap;
+
+    box-shadow:0 8px 20px rgba(212,175,55,.25);
 
 }
 
 .live-right{
 
-color:#D4AF37;
+    flex:1;
 
-font-size:18px;
+    color:#FFFFFF;
 
-font-weight:700;
+    font-size:17px;
 
-transition:opacity .4s ease;
+    font-weight:600;
 
-text-align:center;
+    letter-spacing:.4px;
 
-flex:1;
+    line-height:1.5;
+
+    transition:opacity .35s ease;
+
+}
+
+.live-right span{
+
+    color:#D4AF37;
+
+    font-weight:700;
 
 }
 
@@ -2262,23 +2283,29 @@ flex:1;
 
 .live-offer{
 
-flex-direction:column;
+    width:94%;
 
-gap:10px;
+    flex-direction:column;
 
-padding:12px;
+    text-align:center;
+
+    gap:10px;
+
+    padding:14px;
 
 }
 
 .live-left{
 
-font-size:12px;
+    padding:8px 18px;
+
+    font-size:12px;
 
 }
 
 .live-right{
 
-font-size:15px;
+    font-size:15px;
 
 }
 
