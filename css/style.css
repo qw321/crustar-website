@@ -2199,7 +2199,7 @@ body {
     overflow: hidden;
 }
 /*=========================================
-        PREMIUM LIVE OFFER
+        LIVE OFFER BAR
 =========================================*/
 
 .live-offer{
@@ -2208,17 +2208,15 @@ width:100%;
 
 display:flex;
 
-justify-content:center;
-
 align-items:center;
+
+justify-content:center;
 
 gap:20px;
 
 padding:14px 25px;
 
-background:rgba(212,175,55,.08);
-
-backdrop-filter:blur(14px);
+background:linear-gradient(90deg,#062F2D,#0A4A47,#062F2D);
 
 border-top:1px solid rgba(212,175,55,.25);
 
@@ -2226,96 +2224,62 @@ border-bottom:1px solid rgba(212,175,55,.25);
 
 }
 
-.live-badge{
-
-display:flex;
-
-align-items:center;
-
-gap:8px;
-
-padding:8px 18px;
+.live-left{
 
 background:#d32f2f;
 
 color:#fff;
 
+padding:8px 20px;
+
 border-radius:40px;
 
-font-size:13px;
+font-size:14px;
 
 font-weight:700;
 
-letter-spacing:1px;
+box-shadow:0 0 12px rgba(211,47,47,.4);
 
 }
 
-.live-dot{
-
-width:10px;
-
-height:10px;
-
-border-radius:50%;
-
-background:#fff;
-
-animation:blink 1s infinite;
-
-}
-
-@keyframes blink{
-
-0%,100%{
-
-opacity:1;
-
-}
-
-50%{
-
-opacity:.2;
-
-}
-
-}
-
-.offer-slider{
-
-position:relative;
-
-height:28px;
-
-overflow:hidden;
+.live-right{
 
 color:#D4AF37;
 
-font-size:17px;
+font-size:18px;
 
 font-weight:700;
+
+transition:opacity .4s ease;
+
+text-align:center;
 
 flex:1;
 
 }
 
-.offer-item{
+@media(max-width:768px){
 
-position:absolute;
+.live-offer{
 
-width:100%;
+flex-direction:column;
 
-opacity:0;
+gap:10px;
 
-transform:translateY(25px);
-
-transition:.8s;
+padding:12px;
 
 }
 
-.offer-item.active{
+.live-left{
 
-opacity:1;
+font-size:12px;
 
-transform:translateY(0);
+}
+
+.live-right{
+
+font-size:15px;
+
+}
 
 }
