@@ -2198,58 +2198,85 @@ body {
 .signature-banner {
     overflow: hidden;
 }
-/*=========================================
-        LIVE OFFER BAR
-=========================================*/
-
-/*=========================================
-        CRUSTAR PREMIUM LIVE OFFER
-=========================================*/
+/*==================================================
+        CRUSTAR LUXURY ANNOUNCEMENT BAR
+==================================================*/
 
 .live-offer{
 
-    width:92%;
-    max-width:1250px;
+    position:relative;
 
-    margin:22px auto 0;
+    width:86%;
+    max-width:1180px;
+
+    margin:22px auto -28px;
 
     display:flex;
     align-items:center;
+
     gap:18px;
 
-    padding:14px 22px;
+    padding:12px 24px;
 
-    background:linear-gradient(135deg,#072B28,#0C3D39,#072B28);
+    background:rgba(6,47,45,.92);
+
+    backdrop-filter:blur(14px);
 
     border:1px solid rgba(212,175,55,.35);
 
     border-radius:18px;
 
     box-shadow:
-        0 12px 30px rgba(0,0,0,.30),
-        0 0 18px rgba(212,175,55,.08);
+        0 10px 30px rgba(0,0,0,.35),
+        0 0 25px rgba(212,175,55,.08);
+
+    z-index:50;
 
 }
 
 .live-left{
 
-    background:linear-gradient(135deg,#D4AF37,#E9C96A);
+    display:flex;
 
-    color:#062F2D;
+    align-items:center;
 
-    padding:9px 22px;
+    gap:10px;
+
+    padding:8px 18px;
+
+    background:rgba(212,175,55,.08);
+
+    border:1px solid rgba(212,175,55,.30);
 
     border-radius:40px;
 
+    color:#D4AF37;
+
     font-size:13px;
 
-    font-weight:800;
+    font-weight:700;
 
     letter-spacing:2px;
 
     white-space:nowrap;
 
-    box-shadow:0 8px 20px rgba(212,175,55,.25);
+}
+
+.live-left::before{
+
+    content:"";
+
+    width:10px;
+
+    height:10px;
+
+    border-radius:50%;
+
+    background:#ff3b30;
+
+    box-shadow:
+        0 0 10px #ff3b30,
+        0 0 20px rgba(255,59,48,.45);
 
 }
 
@@ -2257,7 +2284,7 @@ body {
 
     flex:1;
 
-    color:#FFFFFF;
+    color:#ffffff;
 
     font-size:17px;
 
@@ -2265,17 +2292,7 @@ body {
 
     letter-spacing:.4px;
 
-    line-height:1.5;
-
     transition:opacity .35s ease;
-
-}
-
-.live-right span{
-
-    color:#D4AF37;
-
-    font-weight:700;
 
 }
 
@@ -2284,6 +2301,8 @@ body {
 .live-offer{
 
     width:94%;
+
+    margin:18px auto -18px;
 
     flex-direction:column;
 
@@ -2295,20 +2314,13 @@ body {
 
 }
 
-.live-left{
-
-    padding:8px 18px;
-
-    font-size:12px;
-
-}
-
 .live-right{
 
     font-size:15px;
 
 }
 
+}
 }
 .live-offer{
     display:flex !important;
