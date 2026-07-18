@@ -56,22 +56,48 @@ window.addEventListener("load", revealSections);
       LIVE OFFER ROTATOR
 ==============================*/
 
-const offers=document.querySelectorAll(".offer-item");
+const offers = [
 
-let offerIndex=0;
+"⭐ TODAY'S SPECIAL : CRUSTAR SPECIAL BIRYANI",
 
-setInterval(()=>{
+"🍰 Fresh Desserts Prepared Daily",
 
-offers[offerIndex].classList.remove("active");
+"🥘 Gourmet Collection Available",
 
-offerIndex++;
+"🚚 Fast Delivery",
 
-if(offerIndex>=offers.length){
+"❤️ Premium Ingredients",
 
-offerIndex=0;
+"👨‍🍳 Freshly Prepared Every Order"
+
+];
+
+let currentOffer = 0;
+
+const liveOffer = document.getElementById("liveOfferText");
+
+if(liveOffer){
+
+setInterval(function(){
+
+liveOffer.style.opacity="0";
+
+setTimeout(function(){
+
+currentOffer++;
+
+if(currentOffer>=offers.length){
+
+currentOffer=0;
 
 }
 
-offers[offerIndex].classList.add("active");
+liveOffer.innerHTML=offers[currentOffer];
 
-},5000);
+liveOffer.style.opacity="1";
+
+},300);
+
+},4000);
+
+}
