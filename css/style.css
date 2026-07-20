@@ -1385,7 +1385,7 @@ font-size:26px;
 
 background:linear-gradient(135deg,#041d19,#082f29);
 
-padding:75px 0 30px;
+padding:40px 0 25px;
 
 }
 
@@ -2212,12 +2212,9 @@ body {
 
 .live-offer{
 
-    position:absolute;
-top:95px;
-left:50%;
-transform:translateX(-50%);
+    position:relative;
 
-    width:86%;
+    width:72%;
     max-width:1180px;
 
    margin:0;
@@ -2321,13 +2318,13 @@ transform:translateX(-50%);
 
     gap:10px;
 
-    padding:14px;
+   padding:10px 14px;
 
 }
 
 .live-right{
 
-    font-size:15px;
+    font-size:14px;
 
 }
 
