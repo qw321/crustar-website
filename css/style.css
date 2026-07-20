@@ -1444,12 +1444,17 @@ min-width:320px;
 }
 .hero-right img{
 
-width: 620px;
-max-width: 100%;
-height: auto;
+    width:500px;
 
-animation: logoFloat 7s ease-in-out infinite;
-transform: translateY(-35px);
+    max-width:100%;
+
+    height:auto;
+
+    animation:logoFloat 7s ease-in-out infinite;
+
+    transform:translateY(-15px);
+
+}
    filter:
 drop-shadow(0 0 12px rgba(212,175,55,.18))
 drop-shadow(0 0 28px rgba(212,175,55,.10));
