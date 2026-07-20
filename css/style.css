@@ -197,10 +197,18 @@ nav a:hover{
     align-items:center;
     justify-content:center;
     text-align:center;
-    background:
-    linear-gradient(rgba(8,31,27,.80),rgba(8,31,27,.88)),
-    url("../images/hero.jpg") center/cover no-repeat;
+ 
+
+.hero{
+
+position:relative;
+
+background:linear-gradient(135deg,#041d19,#082f29);
+
+padding:75px 0 30px;
+
 }
+
 
 .hero-content{
     max-width:900px;
@@ -2204,12 +2212,15 @@ body {
 
 .live-offer{
 
-    position:relative;
+    position:absolute;
+top:95px;
+left:50%;
+transform:translateX(-50%);
 
     width:86%;
     max-width:1180px;
 
-    margin:22px auto -28px;
+   margin:0;
 
     display:flex;
     align-items:center;
