@@ -1516,14 +1516,14 @@ color:#D4AF37;
     line-height:1.8;
     color:rgba(255,255,255,.88);
     max-width:620px;
-    margin:20px auto 28px;
+    margin:15px auto 18px;
     font-weight:400;
 }
 
 .hero-buttons{
     display:flex;
-    gap:18px;
-    margin:22px 0;
+    gap:16px;
+    margin:15px 0;
     flex-wrap:wrap;
 }
 
@@ -1575,8 +1575,8 @@ box-shadow:0 8px 22px rgba(212,175,55,.22);
 
 display:flex;
 
-gap:25px;
-margin-top:25px;
+gap:15px;
+margin-top:12px;
 
 flex-wrap:wrap;
 
@@ -2300,7 +2300,7 @@ body {
 
 .live-offer{
 
-margin:0 auto 25px;
+margin:0 auto 18px;
 
 padding:10px 14px;
 
@@ -2331,7 +2331,7 @@ font-size:14px;
 
     gap:10px;
 
-   padding:10px 14px;
+   padding:8px 12px;
 
 }
 
