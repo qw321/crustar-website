@@ -2245,57 +2245,19 @@ body {
 
 }
 
-.live-left{
 
-    display:flex;
-
-    align-items:center;
-
-    gap:8px;
-
-    padding:8px 18px;
-
-    border-radius:40px;
-
-    background:rgba(212,175,55,.08);
-
-    color:#D4AF37;
-
-    font-size:13px;
-
-    font-weight:700;
-
-    letter-spacing:2px;
-
-    white-space:nowrap;
-
-}
-
-.live-left::before{
-
-    content:"";
-
-    width:10px;
-
-    height:10px;
-
-    border-radius:50%;
-
-    background:#ff3b30;
-
-    box-shadow:0 0 12px #ff3b30;
-
-}
 
 .live-right{
+
+    width:100%;
+
+    text-align:center;
 
     color:#ffffff;
 
     font-size:16px;
 
     font-weight:600;
-
-    flex:1;
 
     transition:opacity .35s;
 
