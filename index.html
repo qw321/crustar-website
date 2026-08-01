@@ -391,10 +391,11 @@ Pricing will be updated soon. Contact us for today's menu and special orders.
 
     <div class="celebration-grid">
 
-        <div class="celebration-card">
-            <div class="celebration-icon">🎂</div>
-            <h4>Birthday Celebrations</h4>
-        </div>
+       <div class="celebration-card" onclick="openGourmetPopup('birthday')">
+    <div class="celebration-icon">🎂</div>
+    <h3>Birthday Celebrations</h3>
+    <p>Customized gourmet menus for unforgettable birthdays.</p>
+</div>
 
         <div class="celebration-card">
             <div class="celebration-icon">💍</div>
@@ -610,5 +611,85 @@ Pricing will be updated soon. Contact us for today's menu and special orders.
     ↑
 </button>
 <script src="js/script.js"></script>
+    <!-- Birthday Gourmet Popup -->
+<div id="gourmetPopup" class="gourmet-popup">
+
+    <div class="gourmet-popup-content">
+
+        <span class="close-popup" onclick="closeGourmetPopup()">&times;</span>
+
+        <h2>🎂 Birthday Celebrations</h2>
+
+        <p class="popup-subtitle">
+            Celebrate with CRUSTAR Gourmet
+        </p>
+
+        <div class="popup-grid">
+
+            <div class="popup-box">
+                <h4>Perfect For</h4>
+
+                <ul>
+                    <li>Family Birthdays</li>
+                    <li>Kids Birthdays</li>
+                    <li>Adult Birthdays</li>
+                    <li>Office Birthdays</li>
+                </ul>
+            </div>
+
+            <div class="popup-box">
+                <h4>Popular Gourmet Menu</h4>
+
+                <ul>
+                    <li>Signature Biryani</li>
+                    <li>Premium Gravies</li>
+                    <li>Kebabs</li>
+                    <li>Fish Specials</li>
+                    <li>Wraps & Sandwiches</li>
+                    <li>Desserts</li>
+                    <li>Fresh Shakes</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="popup-note">
+
+            <h4>Customize Your Order</h4>
+
+            <p>
+
+                ✓ Guest Count<br>
+                ✓ Veg / Non-Veg<br>
+                ✓ Preferred Menu<br>
+                ✓ Delivery Date & Time<br>
+                ✓ Budget Preference
+
+            </p>
+
+        </div>
+
+        <div class="quote-box">
+
+            <p>
+                Every Gourmet order is freshly prepared and
+                customized according to your celebration.
+            </p>
+
+            <a
+            href="https://wa.me/91YOURNUMBER?text=Hi%20CRUSTAR,%20I%20need%20a%20Birthday%20Celebration%20Quote."
+            target="_blank"
+            class="quote-btn">
+
+            ✨ Request Custom Quote
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
 </body>
 </html>
+
