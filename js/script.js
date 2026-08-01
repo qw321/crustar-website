@@ -101,3 +101,34 @@ liveOffer.style.opacity="1";
 },4000);
 
 }
+/* ===========================
+   GOURMET POPUP
+=========================== */
+
+function openGourmetPopup(type){
+
+    document.getElementById("gourmetPopup").style.display="block";
+
+    document.body.style.overflow="hidden";
+
+}
+
+function closeGourmetPopup(){
+
+    document.getElementById("gourmetPopup").style.display="none";
+
+    document.body.style.overflow="auto";
+
+}
+
+window.onclick=function(e){
+
+    const popup=document.getElementById("gourmetPopup");
+
+    if(e.target===popup){
+
+        closeGourmetPopup();
+
+    }
+
+}
