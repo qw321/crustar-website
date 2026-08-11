@@ -104,31 +104,68 @@ liveOffer.style.opacity="1";
 /* ===========================
    GOURMET POPUP
 =========================== */
-
 function openGourmetPopup(type){
+
+    const title=document.querySelector(".gourmet-popup h2");
+    const subtitle=document.querySelector(".popup-subtitle");
+    const occasion=document.querySelector(".occasion-single");
+    const list=document.querySelector(".premium-list");
+    const quoteTitle=document.querySelector(".quote-box h3");
+    const quoteText=document.querySelector(".quote-box p");
+    const button=document.querySelector(".quote-btn");
+
+    if(type==="birthday"){
+
+        title.innerHTML="🎂 Birthday Celebrations";
+
+        subtitle.innerHTML="Celebrate with CRUSTAR Gourmet";
+
+        occasion.innerHTML="🎂 Birthday Parties";
+
+        list.innerHTML=`
+            <li>✨ Bespoke Gourmet Experience</li>
+            <li>🍽 Premium Food Presentation</li>
+            <li>👨‍🍳 Freshly Prepared on Order</li>
+            <li>🎂 Customized Birthday Menu</li>
+        `;
+
+        quoteTitle.innerHTML="Curate My Celebration";
+
+        quoteText.innerHTML="Every birthday deserves a menu crafted exclusively for the occasion. Tell us about your celebration and we'll curate a gourmet experience designed especially for you.";
+
+        button.innerHTML="✨ Curate My Celebration";
+
+        button.href="https://wa.me/919189041273?text=Hi CRUSTAR, I'd like to plan a Birthday Celebration.";
+
+    }
+
+    else if(type==="anniversary"){
+
+        title.innerHTML="💍 Anniversary Celebrations";
+
+        subtitle.innerHTML="Celebrate another beautiful chapter with CRUSTAR Gourmet.";
+
+        occasion.innerHTML="💍 Anniversary Celebrations";
+
+        list.innerHTML=`
+            <li>💖 Cherished Moments Together</li>
+            <li>🍽 Thoughtfully Curated Dining</li>
+            <li>🌹 Meaningful Celebrations</li>
+            <li>✨ A Memorable Anniversary Experience</li>
+        `;
+
+        quoteTitle.innerHTML="Celebrate Together";
+
+        quoteText.innerHTML="Every anniversary deserves its own special experience. Share your celebration with us and we'll curate a gourmet experience crafted especially for your occasion.";
+
+        button.innerHTML="❤️ Celebrate Together";
+
+        button.href="https://wa.me/919189041273?text=Hi CRUSTAR, I'd like to plan an Anniversary Celebration.";
+
+    }
 
     document.getElementById("gourmetPopup").style.display="block";
 
     document.body.style.overflow="hidden";
-
-}
-
-function closeGourmetPopup(){
-
-    document.getElementById("gourmetPopup").style.display="none";
-
-    document.body.style.overflow="auto";
-
-}
-
-window.onclick=function(e){
-
-    const popup=document.getElementById("gourmetPopup");
-
-    if(e.target===popup){
-
-        closeGourmetPopup();
-
-    }
 
 }
