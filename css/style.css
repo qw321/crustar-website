@@ -2332,11 +2332,11 @@ font-size:14px;
     backdrop-filter:blur(10px);
     z-index:99999;
     overflow-y:auto;
-    padding:50px 20px;
+   padding:25px 20px;
 }
 
 .gourmet-popup-content{
-    max-width:900px;
+   max-width:700px;
     margin:auto;
     background:#062F2D;
     border:2px solid #D4AF37;
@@ -2368,7 +2368,7 @@ transform:none;
 
 .gourmet-popup h2{
     color:#D4AF37;
-    font-size:38px;
+   font-size:32px;
     text-align:center;
     margin:35px 0 10px;
 }
