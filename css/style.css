@@ -2522,3 +2522,49 @@ color:#fff;
 border-bottom:none;
 
 }
+/* ==============================
+   BIRTHDAY POPUP — COMPACT
+   ============================== */
+
+.gourmet-popup-content{
+    max-width:650px;
+    padding:35px 30px 40px;
+}
+
+.gourmet-popup h2{
+    font-size:32px;
+    margin:10px 0 8px;
+}
+
+.popup-subtitle{
+    font-size:16px;
+    margin-bottom:20px;
+}
+
+/* Remove the large information boxes */
+.gourmet-popup .occasion-single,
+.gourmet-popup .premium-list{
+    display:none;
+}
+
+/* Compact enquiry area */
+.popup-note{
+    margin:15px 0 10px;
+    padding:0;
+    background:transparent;
+    border:0;
+}
+
+.quote-box{
+    padding:18px 15px 5px;
+}
+
+.quote-box p{
+    font-size:17px;
+    margin-bottom:20px;
+}
+
+.quote-btn{
+    padding:14px 30px;
+    font-size:16px;
+}
