@@ -166,3 +166,7 @@ function openGourmetPopup(type){
     document.body.style.overflow="hidden";
 
 }
+function closeGourmetPopup(){
+    document.getElementById("gourmetPopup").style.display="none";
+    document.body.style.overflow="auto";
+}
