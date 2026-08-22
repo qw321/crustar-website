@@ -2572,3 +2572,15 @@ border-bottom:none;
 .gourmet-popup .popup-box{
     display:none;
 }
+/* BIRTHDAY POPUP - REMOVE OLD SECTIONS */
+.gourmet-popup .popup-grid {
+    display: none !important;
+}
+
+.gourmet-popup .occasion-single {
+    display: none !important;
+}
+
+.gourmet-popup .premium-list {
+    display: none !important;
+}
