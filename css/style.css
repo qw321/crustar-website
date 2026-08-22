@@ -2568,3 +2568,7 @@ border-bottom:none;
     padding:14px 30px;
     font-size:16px;
 }
+/* Remove old birthday information boxes completely */
+.gourmet-popup .popup-box{
+    display:none;
+}
