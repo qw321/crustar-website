@@ -2584,3 +2584,66 @@ border-bottom:none;
 .gourmet-popup .premium-list {
     display: none !important;
 }
+/* =========================================
+   CRUSTAR BIRTHDAY POPUP — LIVE LIGHTS
+   ========================================= */
+
+.gourmet-popup-content{
+    position:relative;
+    overflow:hidden;
+}
+
+/* Soft ambient birthday glow */
+.gourmet-popup-content::before{
+    content:"";
+    position:absolute;
+    inset:10px;
+    border-radius:20px;
+    pointer-events:none;
+    box-shadow:
+        0 0 35px rgba(212,175,55,.12),
+        inset 0 0 35px rgba(212,175,55,.05);
+}
+
+/* Hanging light string */
+.gourmet-popup-content::after{
+    content:"•  •  •  •  •  •  •  •  •  •  •  •  •  •";
+    position:absolute;
+    top:8px;
+    left:50%;
+    transform:translateX(-50%);
+    width:90%;
+    text-align:center;
+    letter-spacing:14px;
+    font-size:20px;
+    line-height:1;
+    color:#D4AF37;
+    text-shadow:
+        0 0 5px #D4AF37,
+        0 0 12px rgba(212,175,55,.8);
+    animation:birthdayLights 1.8s ease-in-out infinite alternate;
+    pointer-events:none;
+}
+
+@keyframes birthdayLights{
+    0%{
+        opacity:.45;
+        text-shadow:
+            0 0 3px #D4AF37,
+            0 0 7px rgba(212,175,55,.4);
+    }
+
+    50%{
+        opacity:1;
+        text-shadow:
+            0 0 6px #D4AF37,
+            0 0 16px rgba(212,175,55,.9);
+    }
+
+    100%{
+        opacity:.65;
+        text-shadow:
+            0 0 4px #D4AF37,
+            0 0 11px rgba(212,175,55,.7);
+    }
+}
