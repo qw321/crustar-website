@@ -114,31 +114,29 @@ function openGourmetPopup(type){
     const quoteText=document.querySelector(".quote-box p");
     const button=document.querySelector(".quote-btn");
 
-    if(type==="birthday"){
+   if(type==="birthday"){
 
-        title.innerHTML="🎂 Birthday Celebrations";
+    title.innerHTML="🎂 Birthday Celebrations";
 
-        subtitle.innerHTML="Celebrate with CRUSTAR Gourmet";
+    subtitle.innerHTML="Celebrate with CRUSTAR Gourmet";
 
-        occasion.innerHTML="🎂 Birthday Parties";
+    occasion.innerHTML="🎂 Birthday Parties";
 
-        list.innerHTML=`
-            <li>✨ Bespoke Gourmet Experience</li>
-            <li>🍽 Premium Food Presentation</li>
-            <li>👨‍🍳 Freshly Prepared on Order</li>
-            <li>🎂 Customized Birthday Menu</li>
-        `;
+    list.innerHTML=`
+        <li>✦ Chef-Curated</li>
+        <li>✦ Freshly Prepared</li>
+        <li>✦ Crafted Just For You</li>
+    `;
 
-        quoteTitle.innerHTML="Curate My Celebration";
+    quoteTitle.innerHTML="Create My Gourmet Celebration";
 
-        quoteText.innerHTML="Every birthday deserves a menu crafted exclusively for the occasion. Tell us about your celebration and we'll curate a gourmet experience designed especially for you.";
+    quoteText.innerHTML="Where your celebration meets a gourmet experience crafted just for you.";
 
-        button.innerHTML="✨ Curate My Celebration";
+    button.innerHTML="✨ Create My Gourmet Celebration";
 
-        button.href="https://wa.me/919189041273?text=Hi CRUSTAR, I'd like to plan a Birthday Celebration.";
+    button.href="https://wa.me/919189041273?text=Hi CRUSTAR, I'd like to plan a Birthday Celebration.";
 
-    }
-
+}
     else if(type==="anniversary"){
 
         title.innerHTML="💍 Anniversary Celebrations";
