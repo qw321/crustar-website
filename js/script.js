@@ -134,7 +134,7 @@ function openGourmetPopup(type){
 
     button.innerHTML="✦ Create My Gourmet Celebration";
 
-    button.href="https://wa.me/919189041273?text=Hi%20CRUSTAR,%20I'd%20like%20to%20create%20a%20Birthday%20Celebration.";
+    button.href="https://wa.me/8904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20create%20a%20Birthday%20Celebration.";
 }
     else if(type==="anniversary"){
 
@@ -157,7 +157,7 @@ function openGourmetPopup(type){
 
         button.innerHTML="❤️ Celebrate Together";
 
-        button.href="https://wa.me/919189041273?text=Hi CRUSTAR, I'd like to plan an Anniversary Celebration.";
+        button.href="https://wa.me/8904121730?text=Hi CRUSTAR, I'd like to plan an Anniversary Celebration.";
 
     }
 
