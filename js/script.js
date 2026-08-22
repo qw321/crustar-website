@@ -123,19 +123,18 @@ function openGourmetPopup(type){
     occasion.innerHTML="🎂 Birthday Parties";
 
     list.innerHTML=`
-        <li>✦ Chef-Curated</li>
-        <li>✦ Freshly Prepared</li>
-        <li>✦ Crafted Just For You</li>
+        <li>✦ Chef-curated selections</li>
+        <li>✦ Freshly prepared for your celebration</li>
+        <li>✦ Created exclusively for your occasion</li>
     `;
 
     quoteTitle.innerHTML="Create My Gourmet Celebration";
 
-    quoteText.innerHTML="Where your celebration meets a gourmet experience crafted just for you.";
+    quoteText.innerHTML="A birthday menu created around your celebration, your people and your moment.";
 
-    button.innerHTML="✨ Create My Gourmet Celebration";
+    button.innerHTML="✦ Create My Gourmet Celebration";
 
-    button.href="https://wa.me/919189041273?text=Hi CRUSTAR, I'd like to plan a Birthday Celebration.";
-
+    button.href="https://wa.me/919189041273?text=Hi%20CRUSTAR,%20I'd%20like%20to%20create%20a%20Birthday%20Celebration.";
 }
     else if(type==="anniversary"){
 
