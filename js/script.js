@@ -128,11 +128,11 @@ function openGourmetPopup(type){
         <li>✦ Created exclusively for your occasion</li>
     `;
 
-    quoteTitle.innerHTML="Create My Gourmet Celebration";
+    quoteTitle.innerHTML="Curate Your Birthday Experience";
 
-    quoteText.innerHTML="A birthday menu created around your celebration, your people and your moment.";
+quoteText.innerHTML="A birthday experience thoughtfully crafted around your celebration, your guests and the moments that matter.";
 
-    button.innerHTML="✦ Create My Gourmet Celebration";
+button.innerHTML="✦ Plan My Birthday Celebration";
 
     button.href="https://wa.me/8904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20create%20a%20Birthday%20Celebration.";
 }
