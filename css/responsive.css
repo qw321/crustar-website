@@ -146,3 +146,44 @@ footer{
     margin:auto auto 20px;
 }
 }
+/* =========================================
+   BIRTHDAY POPUP — MOBILE CTA FIX
+   ========================================= */
+
+@media (max-width: 768px) {
+
+    .quote-box {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 28px 16px 30px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .quote-box .quote-btn {
+        display: flex;
+        width: calc(100% - 20px);
+        max-width: 260px;
+        min-width: 0;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        padding: 13px 14px;
+        box-sizing: border-box;
+
+        position: relative;
+        left: 0;
+        right: auto;
+
+        transform: none;
+
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+        white-space: normal;
+    }
+}
