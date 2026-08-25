@@ -136,30 +136,30 @@ button.innerHTML="✦ Plan My Birthday Celebration";
 
     button.href="https://wa.me/8904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20create%20a%20Birthday%20Celebration.";
 }
-    else if(type==="anniversary"){
+   else if(type==="anniversary"){
 
-        title.innerHTML="💍 Anniversary Celebrations";
+    title.innerHTML="❤️ Anniversary Celebrations";
 
-        subtitle.innerHTML="Celebrate another beautiful chapter with CRUSTAR Gourmet.";
+    subtitle.innerHTML="Celebrate your journey with CRUSTAR Gourmet";
 
-        occasion.innerHTML="💍 Anniversary Celebrations";
+    occasion.innerHTML="❤️ Anniversary Celebrations";
 
-        list.innerHTML=`
-            <li>💖 Cherished Moments Together</li>
-            <li>🍽 Thoughtfully Curated Dining</li>
-            <li>🌹 Meaningful Celebrations</li>
-            <li>✨ A Memorable Anniversary Experience</li>
-        `;
+    list.innerHTML=`
+        <li>✦ Chef-curated selections</li>
+        <li>✦ Thoughtfully crafted for two</li>
+        <li>✦ Elegant presentation & premium flavours</li>
+        <li>✦ A celebration designed around your story</li>
+    `;
 
-        quoteTitle.innerHTML="Celebrate Together";
+    quoteTitle.innerHTML="Curate Your Anniversary Experience";
 
-        quoteText.innerHTML="Every anniversary deserves its own special experience. Share your celebration with us and we'll curate a gourmet experience crafted especially for your occasion.";
+    quoteText.innerHTML="Every anniversary is a story worth celebrating. Tell us about your special day, and we'll curate a gourmet experience thoughtfully designed around your journey, your guests and the moments that matter.";
 
-        button.innerHTML="❤️ Celebrate Together";
+    button.innerHTML="❤️ Plan My Anniversary Celebration";
 
-        button.href="https://wa.me/8904121730?text=Hi CRUSTAR, I'd like to plan an Anniversary Celebration.";
+    button.href="https://wa.me/8904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20curate%20an%20Anniversary%20Celebration.";
 
-    }
+}
 
     document.getElementById("gourmetPopup").style.display="block";
 
