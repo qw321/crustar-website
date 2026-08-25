@@ -160,6 +160,29 @@ button.innerHTML="✦ Plan My Birthday Celebration";
     button.href="https://wa.me/8904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20curate%20an%20Anniversary%20Celebration.";
 
 }
+    else if(type==="corporate"){
+
+    title.innerHTML="🏢 Corporate Events";
+
+    subtitle.innerHTML="Elevate every corporate occasion with CRUSTAR Gourmet";
+
+    occasion.innerHTML="🏢 Corporate Events";
+
+    list.innerHTML=`
+        <li>✦ Premium gourmet selections for teams</li>
+        <li>✦ Executive meetings & business gatherings</li>
+        <li>✦ Corporate celebrations & milestones</li>
+        <li>✦ Thoughtfully presented for a professional setting</li>
+    `;
+
+    quoteTitle.innerHTML="Curate Your Corporate Experience";
+
+    quoteText.innerHTML="From executive meetings to team celebrations, CRUSTAR Gourmet creates thoughtfully curated experiences designed to make every corporate occasion memorable.";
+
+    button.innerHTML="✦ Plan My Corporate Experience";
+
+    button.href="https://wa.me/8904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20Corporate%20Event.";
+}
 
     document.getElementById("gourmetPopup").style.display="block";
 
