@@ -200,8 +200,7 @@ else if(type==="private"){
 
     quoteTitle.innerHTML="Curate Your Private Party Experience";
 
-    quoteText.innerHTML="Whether it's an intimate gathering or a special celebration with friends and family, CRUSTAR Gourmet creates a thoughtfully curated experience around your occasion.";
-
+   quoteText.innerHTML="Whether it's a celebration with friends, family or loved ones, CRUSTAR Gourmet creates a thoughtfully curated experience around your occasion.";
     button.innerHTML="✦ Plan My Private Party";
 
     button.href="https://wa.me/8904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20Private%20Party.";
