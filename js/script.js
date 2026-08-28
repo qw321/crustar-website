@@ -183,7 +183,29 @@ button.innerHTML="✦ Plan My Birthday Celebration";
 
     button.href="https://wa.me/8904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20Corporate%20Event.";
 }
+else if(type==="private"){
 
+    title.innerHTML="🎉 Private Parties";
+
+    subtitle.innerHTML="Make your private celebration extraordinary with CRUSTAR Gourmet";
+
+    occasion.innerHTML="🎉 Private Parties";
+
+    list.innerHTML=`
+        <li>✦ Gourmet menus crafted for your guests</li>
+        <li>✦ Elegant presentation for intimate gatherings</li>
+        <li>✦ Custom selections for your celebration</li>
+        <li>✦ A memorable experience from start to finish</li>
+    `;
+
+    quoteTitle.innerHTML="Curate Your Private Party Experience";
+
+    quoteText.innerHTML="Whether it's an intimate gathering or a special celebration with friends and family, CRUSTAR Gourmet creates a thoughtfully curated experience around your occasion.";
+
+    button.innerHTML="✦ Plan My Private Party";
+
+    button.href="https://wa.me/8904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20Private%20Party.";
+}
     document.getElementById("gourmetPopup").style.display="block";
 
     document.body.style.overflow="hidden";
