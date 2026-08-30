@@ -214,3 +214,26 @@ function closeGourmetPopup(){
     document.getElementById("gourmetPopup").style.display="none";
     document.body.style.overflow="auto";
 }
+else if(type==="family"){
+
+    title.innerHTML="👨‍👩‍👧‍👦 Family Gatherings";
+
+    subtitle.innerHTML="Bring everyone together with a memorable CRUSTAR Gourmet experience";
+
+    occasion.innerHTML="👨‍👩‍👧‍👦 Family Gatherings";
+
+    list.innerHTML=`
+        <li>✦ Gourmet menus crafted for the whole family</li>
+        <li>✦ Beautiful presentation for your celebration</li>
+        <li>✦ Flexible selections to suit every guest</li>
+        <li>✦ A memorable experience for everyone to enjoy</li>
+    `;
+
+    quoteTitle.innerHTML="Curate Your Family Gathering Experience";
+
+    quoteText.innerHTML="From festive family occasions to special get-togethers, CRUSTAR Gourmet creates a thoughtfully curated experience that brings everyone together around great food and beautiful moments.";
+
+    button.innerHTML="✦ Plan My Family Gathering";
+
+    button.href="https://wa.me/8904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20Family%20Gathering.";
+}
