@@ -114,118 +114,134 @@ function openGourmetPopup(type){
     const quoteText=document.querySelector(".quote-box p");
     const button=document.querySelector(".quote-btn");
 
-   if(type==="birthday"){
+    if(type==="birthday"){
 
-    title.innerHTML="🎂 Birthday Celebrations";
+        title.innerHTML="🎂 Birthday Celebrations";
 
-    subtitle.innerHTML="Celebrate with CRUSTAR Gourmet";
+        subtitle.innerHTML="Celebrate with CRUSTAR Gourmet";
 
-    occasion.innerHTML="🎂 Birthday Parties";
+        occasion.innerHTML="🎂 Birthday Parties";
 
-    list.innerHTML=`
-        <li>✦ Chef-curated selections</li>
-        <li>✦ Freshly prepared for your celebration</li>
-        <li>✦ Created exclusively for your occasion</li>
-    `;
+        list.innerHTML=`
+            <li>✦ Chef-curated selections</li>
+            <li>✦ Freshly prepared for your celebration</li>
+            <li>✦ Created exclusively for your occasion</li>
+        `;
 
-    quoteTitle.innerHTML="Curate Your Birthday Experience";
+        quoteTitle.innerHTML="Curate Your Birthday Experience";
 
-quoteText.innerHTML="A birthday experience thoughtfully crafted around your celebration, your guests and the moments that matter.";
+        quoteText.innerHTML="A birthday experience thoughtfully crafted around your celebration, your guests and the moments that matter.";
 
-button.innerHTML="✦ Plan My Birthday Celebration";
+        button.innerHTML="✦ Plan My Birthday Celebration";
 
-    button.href="https://wa.me/8904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20create%20a%20Birthday%20Celebration.";
-}
-   else if(type==="anniversary"){
+        button.href="https://wa.me/8904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20create%20a%20Birthday%20Celebration.";
+    }
 
-    title.innerHTML="❤️ Anniversary Celebrations";
+    else if(type==="anniversary"){
 
-    subtitle.innerHTML="Celebrate your journey with CRUSTAR Gourmet";
+        title.innerHTML="❤️ Anniversary Celebrations";
 
-    occasion.innerHTML="❤️ Anniversary Celebrations";
+        subtitle.innerHTML="Celebrate your journey with CRUSTAR Gourmet";
 
-    list.innerHTML=`
-        <li>✦ Chef-curated selections</li>
-        <li>✦ Thoughtfully crafted for two</li>
-        <li>✦ Elegant presentation & premium flavours</li>
-        <li>✦ A celebration designed around your story</li>
-    `;
+        occasion.innerHTML="❤️ Anniversary Celebrations";
 
-    quoteTitle.innerHTML="Curate Your Anniversary Experience";
+        list.innerHTML=`
+            <li>✦ Chef-curated selections</li>
+            <li>✦ Thoughtfully crafted for two</li>
+            <li>✦ Elegant presentation & premium flavours</li>
+            <li>✦ A celebration designed around your story</li>
+        `;
 
-    quoteText.innerHTML="Every anniversary is a story worth celebrating. Tell us about your special day, and we'll curate a gourmet experience thoughtfully designed around your journey, your guests and the moments that matter.";
+        quoteTitle.innerHTML="Curate Your Anniversary Experience";
 
-    button.innerHTML="❤️ Plan My Anniversary Celebration";
+        quoteText.innerHTML="Every anniversary is a story worth celebrating. Tell us about your special day, and we'll curate a gourmet experience thoughtfully designed around your journey, your guests and the moments that matter.";
 
-    button.href="https://wa.me/8904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20curate%20an%20Anniversary%20Celebration.";
+        button.innerHTML="❤️ Plan My Anniversary Celebration";
 
-}
+        button.href="https://wa.me/8904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20curate%20an%20Anniversary%20Celebration.";
+    }
+
     else if(type==="corporate"){
 
-    title.innerHTML="🏢 Corporate Events";
+        title.innerHTML="🏢 Corporate Events";
 
-    subtitle.innerHTML="Elevate every corporate occasion with CRUSTAR Gourmet";
+        subtitle.innerHTML="Elevate every corporate occasion with CRUSTAR Gourmet";
 
-    occasion.innerHTML="🏢 Corporate Events";
+        occasion.innerHTML="🏢 Corporate Events";
 
-    list.innerHTML=`
-        <li>✦ Premium gourmet selections for teams</li>
-        <li>✦ Executive meetings & business gatherings</li>
-        <li>✦ Corporate celebrations & milestones</li>
-        <li>✦ Thoughtfully presented for a professional setting</li>
-    `;
+        list.innerHTML=`
+            <li>✦ Premium gourmet selections for teams</li>
+            <li>✦ Executive meetings & business gatherings</li>
+            <li>✦ Corporate celebrations & milestones</li>
+            <li>✦ Thoughtfully presented for a professional setting</li>
+        `;
 
-    quoteTitle.innerHTML="Curate Your Corporate Experience";
+        quoteTitle.innerHTML="Curate Your Corporate Experience";
 
-    quoteText.innerHTML="From executive meetings to team celebrations, CRUSTAR Gourmet creates thoughtfully curated experiences designed to make every corporate occasion memorable.";
+        quoteText.innerHTML="From executive meetings to team celebrations, CRUSTAR Gourmet creates thoughtfully curated experiences designed to make every corporate occasion memorable.";
 
-    button.innerHTML="✦ Plan My Corporate Experience";
+        button.innerHTML="✦ Plan My Corporate Experience";
 
-    button.href="https://wa.me/8904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20Corporate%20Event.";
+        button.href="https://wa.me/8904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20Corporate%20Event.";
+    }
+
+    else if(type==="private"){
+
+        title.innerHTML="🎉 Private Parties";
+
+        subtitle.innerHTML="Make your private celebration extraordinary with CRUSTAR Gourmet";
+
+        occasion.innerHTML="🎉 Private Parties";
+
+        list.innerHTML=`
+            <li>✦ Gourmet menus crafted for your guests</li>
+            <li>✦ Elegant presentation for intimate gatherings</li>
+            <li>✦ Custom selections for your celebration</li>
+            <li>✦ A memorable experience from start to finish</li>
+        `;
+
+        quoteTitle.innerHTML="Curate Your Private Party Experience";
+
+        quoteText.innerHTML="Whether it's a celebration with friends, family or loved ones, CRUSTAR Gourmet creates a thoughtfully curated experience around your occasion.";
+
+        button.innerHTML="✦ Plan My Private Party";
+
+        button.href="https://wa.me/8904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20Private%20Party.";
+    }
+
+    else if(type==="family"){
+
+        title.innerHTML="👨‍👩‍👧‍👦 Family Gatherings";
+
+        subtitle.innerHTML="Bring everyone together with a memorable CRUSTAR Gourmet experience";
+
+        occasion.innerHTML="👨‍👩‍👧‍👦 Family Gatherings";
+
+        list.innerHTML=`
+            <li>✦ Gourmet menus crafted for the whole family</li>
+            <li>✦ Beautiful presentation for your celebration</li>
+            <li>✦ Flexible selections to suit every guest</li>
+            <li>✦ A memorable experience for everyone to enjoy</li>
+        `;
+
+        quoteTitle.innerHTML="Curate Your Family Gathering Experience";
+
+        quoteText.innerHTML="From festive family occasions to special get-togethers, CRUSTAR Gourmet creates a thoughtfully curated experience that brings everyone together around great food and beautiful moments.";
+
+        button.innerHTML="✦ Plan My Family Gathering";
+
+        button.href="https://wa.me/8904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20Family%20Gathering.";
+    }
+
+    document.getElementById("gourmetPopup").style.display="block";
+
+    document.body.style.overflow="hidden";
 }
-else if(type==="private"){
 
-    title.innerHTML="🎉 Private Parties";
 
-    subtitle.innerHTML="Make your private celebration extraordinary with CRUSTAR Gourmet";
+function closeGourmetPopup(){
 
-    occasion.innerHTML="🎉 Private Parties";
+    document.getElementById("gourmetPopup").style.display="none";
 
-    list.innerHTML=`
-        <li>✦ Gourmet menus crafted for your guests</li>
-        <li>✦ Elegant presentation for intimate gatherings</li>
-        <li>✦ Custom selections for your celebration</li>
-        <li>✦ A memorable experience from start to finish</li>
-    `;
-
-    quoteTitle.innerHTML="Curate Your Private Party Experience";
-
-   quoteText.innerHTML="Whether it's a celebration with friends, family or loved ones, CRUSTAR Gourmet creates a thoughtfully curated experience around your occasion.";
-    button.innerHTML="✦ Plan My Private Party";
-
-    button.href="https://wa.me/8904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20Private%20Party.";
-}
-
-else if(type==="family"){
-
-    title.innerHTML="👨‍👩‍👧‍👦 Family Gatherings";
-
-    subtitle.innerHTML="Bring everyone together with a memorable CRUSTAR Gourmet experience";
-
-    occasion.innerHTML="👨‍👩‍👧‍👦 Family Gatherings";
-
-    list.innerHTML=`
-        <li>✦ Gourmet menus crafted for the whole family</li>
-        <li>✦ Beautiful presentation for your celebration</li>
-        <li>✦ Flexible selections to suit every guest</li>
-        <li>✦ A memorable experience for everyone to enjoy</li>
-    `;
-
-    quoteTitle.innerHTML="Curate Your Family Gathering Experience";
-
-    quoteText.innerHTML="From festive family occasions to special get-togethers, CRUSTAR Gourmet creates a thoughtfully curated experience that brings everyone together around great food and beautiful moments.";
-
-    button.innerHTML="✦ Plan My Family Gathering";
-
-    button.href="https://wa.me/8904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20Family%20Gathering.";
+    document.body.style.overflow="auto";
 }
