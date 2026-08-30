@@ -205,15 +205,7 @@ else if(type==="private"){
 
     button.href="https://wa.me/8904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20Private%20Party.";
 }
-    document.getElementById("gourmetPopup").style.display="block";
 
-    document.body.style.overflow="hidden";
-
-}
-function closeGourmetPopup(){
-    document.getElementById("gourmetPopup").style.display="none";
-    document.body.style.overflow="auto";
-}
 else if(type==="family"){
 
     title.innerHTML="👨‍👩‍👧‍👦 Family Gatherings";
