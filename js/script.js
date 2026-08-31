@@ -290,3 +290,7 @@ function closeGourmetPopup(){
 
     document.body.style.overflow="auto";
 }
+function closeGourmetBooking(){
+    document.getElementById("gourmetBookingPopup").style.display="none";
+    document.body.style.overflow="auto";
+}
