@@ -442,11 +442,11 @@ Pricing will be updated soon. Contact us for today's menu and special orders.
 <div class="celebration-note">
     Custom Menus • Elegant Presentation • Bulk Orders Welcome
 </div>
-    <div class="gourmet-button">
-        <a href="#contact" class="btn">
-           Book Your Gourmet Experience
-        </a>
-    </div>
+   <div class="gourmet-button">
+    <button type="button" class="btn" onclick="openGourmetBooking()">
+        Book Your Gourmet Experience
+    </button>
+</div>
 
 </div>
 
@@ -690,4 +690,72 @@ Celebrate with CRUSTAR Gourmet
     </a>
 
 </div>
+ <!-- ================= GOURMET BOOKING SELECTOR ================= -->
+<div id="gourmetBookingPopup" class="gourmet-popup">
+
+    <div class="gourmet-popup-content">
+
+        <button type="button"
+                class="close-popup"
+                onclick="closeGourmetBooking(); return false;">
+            &times;
+        </button>
+
+        <h2>✨ Choose Your Gourmet Experience</h2>
+
+        <p class="popup-subtitle">
+            Tell us what you're planning, and we'll help curate it for you.
+        </p>
+
+        <div class="popup-box">
+
+            <h4>🍽 Select Your Occasion</h4>
+
+            <a class="quote-btn"
+               href="https://wa.me/918904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20Birthday%20Celebration."
+               target="_blank">
+                🎂 Birthday Celebrations
+            </a>
+
+            <a class="quote-btn"
+               href="https://wa.me/918904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20an%20Anniversary%20Celebration."
+               target="_blank">
+                ❤️ Anniversary Celebrations
+            </a>
+
+            <a class="quote-btn"
+               href="https://wa.me/918904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20Corporate%20Event."
+               target="_blank">
+                🏢 Corporate Events
+            </a>
+
+            <a class="quote-btn"
+               href="https://wa.me/918904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20Private%20Party."
+               target="_blank">
+                🎉 Private Parties
+            </a>
+
+            <a class="quote-btn"
+               href="https://wa.me/918904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20Family%20Gathering."
+               target="_blank">
+                👨‍👩‍👧‍👦 Family Gatherings
+            </a>
+
+            <a class="quote-btn"
+               href="https://wa.me/918904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20House%20Party."
+               target="_blank">
+                🏠 House Parties
+            </a>
+
+            <a class="quote-btn"
+               href="https://wa.me/918904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20Bulk%20Order."
+               target="_blank">
+                📦 Bulk Orders
+            </a>
+
+        </div>
+
+    </div>
+
+</div>       
        
