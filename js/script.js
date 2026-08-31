@@ -232,7 +232,29 @@ function openGourmetPopup(type){
 
         button.href="https://wa.me/8904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20Family%20Gathering.";
     }
+else if(type==="house"){
 
+    title.innerHTML="🏡 House Parties";
+
+    subtitle.innerHTML="Bring CRUSTAR Gourmet to your home for a memorable celebration";
+
+    occasion.innerHTML="🏡 House Parties";
+
+    list.innerHTML=`
+        <li>✦ Gourmet menus crafted for home celebrations</li>
+        <li>✦ Freshly prepared for your guests</li>
+        <li>✦ Flexible selections for every gathering</li>
+        <li>✦ Elegant food experiences brought to your home</li>
+    `;
+
+    quoteTitle.innerHTML="Curate Your House Party Experience";
+
+    quoteText.innerHTML="From casual get-togethers to special celebrations at home, CRUSTAR Gourmet brings thoughtfully curated food experiences to your doorstep, so you can enjoy memorable moments with family and friends.";
+
+    button.innerHTML="✦ Plan My House Party";
+
+    button.href="https://wa.me/8904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20House%20Party.";
+}
     document.getElementById("gourmetPopup").style.display="block";
 
     document.body.style.overflow="hidden";
