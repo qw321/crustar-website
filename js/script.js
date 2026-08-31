@@ -255,6 +255,29 @@ else if(type==="house"){
 
     button.href="https://wa.me/8904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20House%20Party.";
 }
+ else if(type==="bulk"){
+
+    title.innerHTML="📦 Bulk Orders";
+
+    subtitle.innerHTML="Premium CRUSTAR Gourmet selections prepared for larger orders";
+
+    occasion.innerHTML="📦 Bulk Orders";
+
+    list.innerHTML=`
+        <li>✦ Gourmet selections prepared for larger orders</li>
+        <li>✦ Suitable for offices, events & special requirements</li>
+        <li>✦ Freshly prepared with consistent quality</li>
+        <li>✦ Convenient ordering for multiple guests</li>
+    `;
+
+    quoteTitle.innerHTML="Plan Your Bulk Order";
+
+    quoteText.innerHTML="Whether you need gourmet selections for an office, event or larger gathering, CRUSTAR Gourmet can thoughtfully prepare your order around your quantity and requirements.";
+
+    button.innerHTML="✦ Plan My Bulk Order";
+
+    button.href="https://wa.me/8904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20Bulk%20Order.";
+}  
     document.getElementById("gourmetPopup").style.display="block";
 
     document.body.style.overflow="hidden";
