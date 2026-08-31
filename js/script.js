@@ -290,6 +290,15 @@ function closeGourmetPopup(){
 
     document.body.style.overflow="auto";
 }
+function openGourmetBooking(){
+    document.getElementById("gourmetBookingPopup").style.display="block";
+    document.body.style.overflow="hidden";
+}
+
+function closeGourmetBooking(){
+    document.getElementById("gourmetBookingPopup").style.display="none";
+    document.body.style.overflow="auto";
+}
 function closeGourmetBooking(){
     document.getElementById("gourmetBookingPopup").style.display="none";
     document.body.style.overflow="auto";
