@@ -112,8 +112,7 @@ function openGourmetPopup(type){
     const list=document.querySelector(".premium-list");
     const quoteTitle=document.querySelector(".quote-box h3");
     const quoteText=document.querySelector(".quote-box p");
-    const button=document.querySelector(".quote-btn");
-
+   const button=document.getElementById("gourmetActionButton");
     if(type==="birthday"){
 
         title.innerHTML="🎂 Birthday Celebrations";
@@ -158,7 +157,7 @@ function openGourmetPopup(type){
 
         button.innerHTML="❤️ Plan My Anniversary Celebration";
 
-        button.href="https://wa.me/8904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20curate%20an%20Anniversary%20Celebration.";
+        button.href="https://wa.me/918904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20curate%20an%20Anniversary%20Celebration.";
     }
 
     else if(type==="corporate"){
@@ -182,7 +181,7 @@ function openGourmetPopup(type){
 
         button.innerHTML="✦ Plan My Corporate Experience";
 
-        button.href="https://wa.me/8904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20Corporate%20Event.";
+        button.href="https://wa.me/918904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20Corporate%20Event.";
     }
 
     else if(type==="private"){
@@ -206,7 +205,7 @@ function openGourmetPopup(type){
 
         button.innerHTML="✦ Plan My Private Party";
 
-        button.href="https://wa.me/8904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20Private%20Party.";
+        button.href="https://wa.me/918904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20Private%20Party.";
     }
 
     else if(type==="family"){
@@ -230,7 +229,7 @@ function openGourmetPopup(type){
 
         button.innerHTML="✦ Plan My Family Gathering";
 
-        button.href="https://wa.me/8904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20Family%20Gathering.";
+        button.href="https://wa.me/918904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20Family%20Gathering.";
     }
 else if(type==="house"){
 
@@ -253,7 +252,7 @@ else if(type==="house"){
 
     button.innerHTML="✦ Plan My House Party";
 
-    button.href="https://wa.me/8904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20House%20Party.";
+    button.href="https://wa.me/918904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20House%20Party.";
 }
  else if(type==="bulk"){
 
@@ -276,7 +275,7 @@ else if(type==="house"){
 
     button.innerHTML="✦ Plan My Bulk Order";
 
-    button.href="https://wa.me/8904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20Bulk%20Order.";
+    button.href="https://wa.me/918904121730?text=Hi%20CRUSTAR,%20I'd%20like%20to%20plan%20a%20Bulk%20Order.";
 }  
     document.getElementById("gourmetPopup").style.display="block";
 
