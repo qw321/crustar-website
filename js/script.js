@@ -290,8 +290,19 @@ function closeGourmetPopup(){
     document.body.style.overflow="auto";
 }
 function openGourmetBooking(){
-    document.getElementById("gourmetBookingPopup").style.display="block";
-    document.body.style.overflow="hidden";
+
+    const popup = document.getElementById("gourmetBookingPopup");
+
+    if (popup && popup.parentElement !== document.body) {
+        document.body.appendChild(popup);
+    }
+
+    if (popup) {
+        popup.style.display = "block";
+    }
+
+    document.body.style.overflow = "hidden";
+
 }
 
 function closeGourmetBooking(){
