@@ -2588,6 +2588,16 @@ border-bottom:none;
 .gourmet-popup .popup-box{
     display:none;
 }
+#gourmetBookingPopup .popup-box{
+    display:block !important;
+}
+
+#gourmetBookingPopup .quote-btn{
+    display:block;
+    width:100%;
+    margin:12px 0;
+    text-align:center;
+}
 /* BIRTHDAY POPUP - REMOVE OLD SECTIONS */
 .gourmet-popup .popup-grid {
     display: none !important;
