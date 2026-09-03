@@ -2809,3 +2809,144 @@ border-bottom:none;
 .celebration-card.corporate-card {
     cursor: pointer;
 }
+/* =====================================================
+   CRUSTAR GOURMET — 7 CARD 3D CAROUSEL
+   Existing cards/content/clicks remain unchanged
+===================================================== */
+
+@media (min-width: 769px) {
+
+    .celebration-section {
+        perspective: 1600px;
+        overflow: visible;
+    }
+
+    .celebration-section .celebration-grid {
+        position: relative;
+        width: 100%;
+        max-width: 1100px;
+        height: 560px;
+        margin: 50px auto 40px;
+        display: block;
+
+        transform-style: preserve-3d;
+
+        animation: crustarGourmetCarousel 32s linear infinite;
+    }
+
+    .celebration-section .celebration-card {
+        position: absolute;
+
+        width: 270px;
+        height: 350px;
+
+        top: 50%;
+        left: 50%;
+
+        margin-left: -135px;
+        margin-top: -175px;
+
+        transform-style: preserve-3d;
+
+        backface-visibility: visible;
+
+        transition:
+            transform .4s ease,
+            box-shadow .4s ease;
+
+        z-index: 1;
+    }
+
+
+    /* 7 CARDS — EVENLY SPACED AROUND THE CIRCLE */
+
+    .celebration-section .celebration-card:nth-child(1) {
+        transform:
+            rotateY(0deg)
+            translateZ(390px);
+    }
+
+    .celebration-section .celebration-card:nth-child(2) {
+        transform:
+            rotateY(51.43deg)
+            translateZ(390px);
+    }
+
+    .celebration-section .celebration-card:nth-child(3) {
+        transform:
+            rotateY(102.86deg)
+            translateZ(390px);
+    }
+
+    .celebration-section .celebration-card:nth-child(4) {
+        transform:
+            rotateY(154.29deg)
+            translateZ(390px);
+    }
+
+    .celebration-section .celebration-card:nth-child(5) {
+        transform:
+            rotateY(205.71deg)
+            translateZ(390px);
+    }
+
+    .celebration-section .celebration-card:nth-child(6) {
+        transform:
+            rotateY(257.14deg)
+            translateZ(390px);
+    }
+
+    .celebration-section .celebration-card:nth-child(7) {
+        transform:
+            rotateY(308.57deg)
+            translateZ(390px);
+    }
+
+
+    /* THE WHOLE 7-CARD CIRCLE ROTATES AS ONE */
+
+    @keyframes crustarGourmetCarousel {
+
+        from {
+            transform:
+                rotateY(0deg);
+        }
+
+        to {
+            transform:
+                rotateY(360deg);
+        }
+
+    }
+
+
+    /* PAUSE WHEN USER HOVERS OVER THE CAROUSEL */
+
+    .celebration-section .celebration-grid:hover {
+        animation-play-state: paused;
+    }
+
+
+    /* KEEP CARDS CLICKABLE */
+
+    .celebration-section .celebration-card {
+        cursor: pointer;
+        pointer-events: auto;
+    }
+
+}
+
+
+/* MOBILE — KEEP YOUR EXISTING CARD LAYOUT */
+
+@media (max-width: 768px) {
+
+    .celebration-section .celebration-grid {
+        display: grid;
+        position: relative;
+        height: auto;
+        transform: none;
+        animation: none;
+    }
+
+}
