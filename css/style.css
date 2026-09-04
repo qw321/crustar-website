@@ -2848,7 +2848,8 @@ border-bottom:none;
 
         transform-style: preserve-3d;
 
-        backface-visibility: visible;
+              backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
 
         transition:
             transform .4s ease,
